@@ -8,9 +8,11 @@
     <meta name="keywords" content="city, city guide, tallinn, estonia, visit tallinn">
     <meta name="author" content="Madis Tepp">
     <meta name="description" content="Tallinn city guide">
+    <script type="text/javascript" src="assets/js/maps.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Code+Pro:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
     <title>Tallinn guide by - MT Design</title>
 </head>
 <header>
@@ -84,7 +86,10 @@
 
     <!--google maps section and search bar-->
     <section>
-        <div id="map"></div>
+        <div class="container justify-content-center">
+            <input type="text" placeholder="Search for locations">
+            <div id="map"></div>
+        </div>
     </section>
 
 
@@ -125,6 +130,7 @@
     <script src="https://kit.fontawesome.com/adecd2bab8.js " crossorigin="anonymous "></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZL_iHNZkzJt2jXMT-IJf5ev7Jxv2g19w&callback=initMap"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZL_iHNZkzJt2jXMT-IJf5ev7Jxv2g19w&libraries=places"></script>
+
 </body>
 
 </html>
