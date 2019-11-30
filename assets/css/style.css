@@ -51,3 +51,7 @@ BC Color:
 .top-things {
     text-align: center;
 }
+
+div#map {
+    min-height: 360px;
+}
