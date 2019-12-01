@@ -63,22 +63,65 @@
     <section>
         <h3 class="recommendations">Recommended by yours truly</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quis rerum cupiditate reiciendis veritatis accusantium ipsa quasi tempore soluta alias, nisi minima rem dolor dolore obcaecati ex illum vitae illo.</p>
+        <div class="container">
 
-        <div class="top-things">
+
             <h4>Upcoming events in Tallinn</h4>
-        </div>
+            <div class="top-things row">
+                <div class="top-things-detailed col">
+                    <p>Tallinn Music Week (TMW)</p>
+                </div>
+                <div class="top-things-detailed col">
+                    <p>Jazzkaar</p>
+                </div>
+                <div class="top-things-detailed col">
+                    <p>Simple Session 2020</p>
+                </div>
+                <div class="top-things-detailed col">
+                    <p>Tallinn Fashion Week</p>
+                </div>
+                <div class="top-things-detailed col">
+                    <p>Tallinn Craft Beer Weekend</p>
+                </div>
+            </div>
 
-        <div class="top-things">
             <h4>Places not to miss</h4>
-        </div>
+            <div class="top-things">
+                <div class="top-things-detailed"></div>
+                <div class="top-things-detailed"></div>
+                <div class="top-things-detailed"></div>
+                <div class="top-things-detailed"></div>
+                <div class="top-things-detailed"></div>
+            </div>
 
-
-        <div class="top-things">
             <h4>Food and drinks</h4>
-        </div>
+            <div class="top-things row">
+                <div class="top-things-detailed col">
+                    <p>Rataskaevu 13</p>
+                </div>
+                <div class="top-things-detailed col">
+                    <p>Parrot Minibar</p>
+                </div>
+                <div class="top-things-detailed col">
+                    <p>180 by Mathias Diether </p>
+                </div>
+                <div class="top-things-detailed col">
+                    <p>Whisper sisters</p>
+                </div>
+                <div class="top-things-detailed col">
+                    <p>Manna La Roosa</p>
+                </div>
+            </div>
 
-        <div class="top-things">
+
             <h4>Nightlife or relaxation</h4>
+            <div class="top-things">
+                <div class="top-things-detailed"></div>
+                <div class="top-things-detailed"></div>
+                <div class="top-things-detailed"></div>
+                <div class="top-things-detailed"></div>
+                <div class="top-things-detailed"></div>
+            </div>
         </div>
 
     </section>
@@ -101,18 +144,30 @@
 
     <!--footer-->
     <footer>
-        <div class="footer">
-            <div class="social-links">
+        <div class="row">
+            <div class="social-links col-md-4">
                 Social links
             </div>
-            <div class="local-help-links">
+
+            <div class="local-help-links col-md-4">
                 Local help - Taxis, Public Transport, Event tickets
             </div>
-            <div class="newsletter-signup">
-                Sign up for newsletter
+
+
+
+            <div class="newsletter-signup col-md-4">
+                <div class="form-group">
+                    <label for="newsletter-signup">Sign up for newsletter</label>
+                    <input type="email" class="form-control" id="newsletter-signup" aria-describedby="signUp" placeholder="Enter email">
+                    <small id="signUp" class="form-text text-muted">Sign up for the latest news and updates</small>
+                    <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+                </div>
             </div>
-            <div class="all-rights-reserved">
-                All rights reserved div for text and logo
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="all-rights-reserved col-6">
+                All rights reserved @ MT Design 2019
             </div>
         </div>
     </footer>
