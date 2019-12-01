@@ -52,6 +52,43 @@ BC Color:
     text-align: center;
 }
 
+.top-things-detailed {
+    display: inline-flex;
+    border: 1px solid #000000;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+    margin: 20px;
+    width: fit-content;
+}
+
+
+/*-------map section---------*/
+
 div#map {
     min-height: 360px;
+}
+
+
+/*---footer sections styling---*/
+
+footer {
+    background-color: ivory;
+    border: 1px solid #000000;
+}
+
+.social-links {
+    background-color: white;
+    border: 1px solid #000000;
+    ;
+}
+
+.local-help-links {
+    background-color: white;
+    border: 1px solid #000000;
+}
+
+.all-rights-reserved {
+    text-align: center;
 }
