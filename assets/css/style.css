@@ -12,16 +12,11 @@ BC Color:
 
 .heading {
     text-align: center;
-    padding-bottom: 15px;
-    width: fit-content;
-    height: fit-content;
-    height: 50px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    padding-bottom: 0px;
-    border: 10px solid #237AEB;
-    box-sizing: content-box;
-    font-size: fit-height;
+    background-image: url("/assets/images/karson-NyIBNMueUQI-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 300px;
 }
 
 .guide-button {
@@ -38,6 +33,8 @@ BC Color:
 .about-header {
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 30px;
+    ;
 }
 
 
@@ -46,6 +43,7 @@ BC Color:
 .recommendations {
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .top-things {
