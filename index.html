@@ -20,41 +20,39 @@
 
     <!--navbar and header-->
     <header>
-        <div class="heading row">
-            <div class="col align-self-end align-items-end">
-                <h1 class="site-intro align-text-bottom">Tallinn city guide by MT</h1>
-            </div>
-        </div>
+        <div class="heading"></div>
+        <h1 class="site-intro">Tallinn city guide by MT</h1>
 
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button " data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent ">
-                <div class="container navbar-nav mr-auto justify-content-center">
-
-                    <div class="nav-item guide-button ">
-                        <a class="nav-link " href="# ">Food and Drinks</a>
-                    </div>
-                    <div class="nav-item guide-button ">
-                        <a class="nav-link " href="# ">To do and to see</a>
-                    </div>
-                    <div class="nav-item guide-button">
-                        <a class="nav-link " href="# ">Nighlife or Relax</a>
-                    </div>
-                    <div class="nav-item  guide-button">
-                        <a class="nav-link" href="# ">Plan your travel <br> and accomodation</a>
-                    </div>
-                </div>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item guide-button ">
+                        <a class="nav-link" href="# ">Food and Drinks</a>
+                    </li>
+                    <li class="nav-item guide-button ">
+                        <a class="nav-link" href="# ">To do and to see</a>
+                    </li>
+                    <li class="nav-item guide-button">
+                        <a class="nav-link" href="# ">Nighlife or Relax</a>
+                    </li>
+                    <li class="nav-item  guide-button">
+                        <a class="nav-link" href="# ">Travel and Hotels</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
 
     <!--about the city section-->
-    <section>
+    <section class="about-header">
         <div class="container">
             <div class="col-12 align-self-center">
-                <h2 class="about-header">About Tallinn</h2>
+                <h2>About Tallinn</h2>
                 <p class="text-justify">Steeped in Medieval charm, yet always at the cutting edge of modernity, Tallinn offers today’s travelers plenty to see. The city is big enough and interesting enough to explore for days, but also small and compact enough to give you the
                     full Tallinn experience in just a few hours.Tallinn is a highly compact city, most of which can easily be explored on foot without the need for taxis or buses. Most of the best opportunities for sightseeing, cultural events, dining,
                     shopping, and nightlife are conveniently massed in city centre. Whatever your agenda, whichever of the Tallinn´s you need – the romantic, Medieval Tallinn or the trendy, high-tech one – the doors are open. Just take your pick and head
@@ -67,9 +65,7 @@
 
     <!--image of Tallinn-->
 
-    <div class="container">
-        <img>
-    </div>
+    <div class="night-tallinn"></div>
 
     <!-- recommendations sections-->
 
@@ -164,18 +160,18 @@
 
     <!--footer-->
     <footer>
-        <div class="row">
-            <div class="social-links col-md-4">
+        <div class="row  justify-content-between footer">
+            <div class="social-links col-md-3">
                 Social links
             </div>
 
-            <div class="local-help-links col-md-4">
+            <div class="local-help-links col-md-3">
                 Local help - Taxis, Public Transport, Event tickets
             </div>
 
 
 
-            <div class="newsletter-signup col-md-4">
+            <div class="newsletter-signup col-md-3">
                 <div class="form-group">
                     <label for="newsletter-signup">Sign up for newsletter</label>
                     <input type="email" class="form-control" id="newsletter-signup" aria-describedby="signUp" placeholder="Enter email">
@@ -185,8 +181,8 @@
             </div>
         </div>
 
-        <div class="row justify-content-center">
-            <div class="all-rights-reserved col-6">
+        <div>
+            <div class="all-rights-reserved">
                 All rights reserved @ MT Design 2019
             </div>
         </div>

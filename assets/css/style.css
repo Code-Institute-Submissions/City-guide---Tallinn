@@ -1,4 +1,4 @@
-/*-
+    /*-
 Font: 
 font-family: 'Roboto Mono', monospace;
 BC Color: 
@@ -6,87 +6,107 @@ BC Color:
 2nd : #000000
 3rd : #FFFFFF
 -*/
-
-
-/*-----heading and navbar styling*/
-
-.heading {
-    text-align: center;
-    background-image: url("/assets/images/karson-NyIBNMueUQI-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 300px;
-}
-
-.guide-button {
-    display: inline-flex;
-    border: 1px solid #237AEB;
-    text-align: center;
-    margin: 20px;
-    width: fit-content;
-}
-
-
-/*----about the city section styling----*/
-
-.about-header {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    ;
-}
-
-
-/*--my recommendations sections--*/
-
-.recommendations {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.top-things {
-    text-align: center;
-}
-
-.top-things-detailed {
-    display: inline-flex;
-    border: 1px solid #000000;
-    text-align: center;
-    width: fit-content;
-    height: fit-content;
-    box-sizing: border-box;
-    margin: 20px;
-    width: fit-content;
-}
-
-
-/*-------map section---------*/
-
-div#map {
-    min-height: 360px;
-}
-
-
-/*---footer sections styling---*/
-
-footer {
-    background-color: ivory;
-    border: 1px solid #000000;
-}
-
-.social-links {
-    background-color: white;
-    border: 1px solid #000000;
-    ;
-}
-
-.local-help-links {
-    background-color: white;
-    border: 1px solid #000000;
-}
-
-.all-rights-reserved {
-    text-align: center;
-}
+    /*-----heading and navbar styling*/
+    
+    .heading {
+        background-image: url("/assets/images/karson-NyIBNMueUQI-unsplash.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+    }
+    
+    .site-intro {
+        text-align: center;
+        background-color: #237AEB;
+        margin: 0px;
+        height: 60px;
+    }
+    
+    .guide-button {
+        text-align: center;
+        margin: 10px;
+        background-color: #ffffff;
+        border-radius: 10px;
+    }
+    
+    .navbar-dark .navbar-nav .nav-link {
+        color: #000000;
+    }
+    
+    .navbar {
+        background-color: #237AEB;
+    }
+    /*---between sections image---*/
+    
+    .night-tallinn {
+        background-image: url("/assets/images/gleb-makarov-yDPm04K3e9Y-unsplash.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 500px;
+    }
+    /*----about the city section styling----*/
+    
+    .about-header {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: #237AEB;
+    }
+    /*--my recommendations sections--*/
+    
+    .recommendations {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .top-things {
+        text-align: center;
+    }
+    
+    .top-things-detailed {
+        display: inline-flex;
+        border: 1px solid #000000;
+        text-align: center;
+        width: fit-content;
+        height: fit-content;
+        box-sizing: border-box;
+        margin: 20px;
+        width: fit-content;
+    }
+    /*-------map section---------*/
+    
+    div#map {
+        min-height: 360px;
+    }
+    /*---footer sections styling---*/
+    
+    .footer {
+        margin: 0px;
+        background-color: #000000;
+        ;
+    }
+    
+    .social-links {
+        background-color: #000000;
+        color: ivory;
+    }
+    
+    .local-help-links {
+        color: ivory;
+        background-color: #000000;
+    }
+    
+    .all-rights-reserved {
+        color: ivory;
+        text-align: center;
+        background-color: #000000;
+    }
+    
+    .newsletter-signup {
+        color: ivory;
+        background-color: #000000;
+    }
