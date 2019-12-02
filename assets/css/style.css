@@ -18,7 +18,7 @@ BC Color:
     
     .site-intro {
         text-align: center;
-        background-color: #237AEB;
+        background-color: rgb(26, 7, 204);
         margin: 0px;
         height: 60px;
     }
@@ -35,12 +35,12 @@ BC Color:
     }
     
     .navbar {
-        background-color: #237AEB;
+        background-color: rgb(26, 7, 204);
     }
     /*---between sections image---*/
     
-    .night-tallinn {
-        background-image: url("/assets/images/gleb-makarov-yDPm04K3e9Y-unsplash.jpg");
+    .tallinn-old-town {
+        background-image: url("/assets/images/nikola-johnny-mirkovic-DXfbUCVg4zE-unsplash.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -53,14 +53,20 @@ BC Color:
         text-align: center;
         padding-top: 30px;
         padding-bottom: 30px;
-        background-color: #237AEB;
+        background-color: rgb(26, 7, 204);
     }
     /*--my recommendations sections--*/
     
+    .recommendations-intro {
+        padding: 30px;
+    }
+    
     .recommendations {
         text-align: center;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: #000000;
+        color: #ffffff;
     }
     
     .top-things {
@@ -68,14 +74,33 @@ BC Color:
     }
     
     .top-things-detailed {
-        display: inline-flex;
-        border: 1px solid #000000;
+        border: 1px solid #ffffff;
         text-align: center;
-        width: fit-content;
-        height: fit-content;
-        box-sizing: border-box;
-        margin: 20px;
-        width: fit-content;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: black;
+    }
+    
+    h3 {
+        text-align: center;
+        color: #ffffff;
+    }
+    
+    .activities-bg-img {
+        background-image: url("/assets/images/gleb-makarov-yDPm04K3e9Y-unsplash.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 500px;
+    }
+    
+    a {
+        color: #ffffff;
+    }
+    
+    .row {
+        margin: 0px;
     }
     /*-------map section---------*/
     
@@ -110,3 +135,4 @@ BC Color:
         color: ivory;
         background-color: #000000;
     }
+    /*--------media queries------*/
