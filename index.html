@@ -9,6 +9,7 @@
     <meta name="author" content="Madis Tepp">
     <meta name="description" content="Tallinn city guide">
     <script type="text/javascript" src="assets/js/maps.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Code+Pro:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
@@ -30,17 +31,20 @@
         </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                 <ul class="navbar-nav">
-                    <li class="nav-item guide-button ">
-                        <a class="nav-link" href="# ">Food and Drinks</a>
+                    <li class="nav-item guide-button">
+                        <a class="nav-link" onclick="moveTo()">Events</a>
                     </li>
                     <li class="nav-item guide-button ">
-                        <a class="nav-link" href="# ">To do and to see</a>
+                        <a class="nav-link" onclick="moveTo()">Food and Drinks</a>
+                    </li>
+                    <li class="nav-item guide-button ">
+                        <a class="nav-link" onclick="moveTo()">To do and to see</a>
                     </li>
                     <li class="nav-item guide-button">
-                        <a class="nav-link" href="# ">Nighlife</a>
+                        <a class="nav-link" onclick="moveTo()">Nighlife</a>
                     </li>
                     <li class="nav-item  guide-button">
-                        <a class="nav-link" href="# ">Travel and Hotels</a>
+                        <a class="nav-link" onclick="moveToTravel()">Travel and Hotels</a>
                     </li>
                 </ul>
             </div>
@@ -72,93 +76,93 @@
     <section>
         <div class="recommendations">
             <h2>Recommended by yours truly</h2>
-            <p class="text-justify recommendations-intro">Having trouble deciding on what, where, why, how? As a Tallinn local who has now been living abroad for years, I’ve been struggling myself with this decision when visiting back home. So to make things easier for you I have gathered some of
+            <p class="text-justify recommendations-intro ">Having trouble deciding on what, where, why, how? As a Tallinn local who has now been living abroad for years, I’ve been struggling myself with this decision when visiting back home. So to make things easier for you I have gathered some of
                 my local favorites for you to choose from. Want to have a fine dining dinner or something more laid back, interested in cocktails or maybe you’re a beer connoisseur, partying or feeling like being pampered? Whatever your interest you’ll
                 find something that would suit you from below.
             </p>
         </div>
 
 
-        <div class="activities-bg-img">
+        <div class="activities-bg-img ">
 
-            <h3>Upcoming events in Tallinn</h3>
-            <div class="top-things row wrapper">
-                <div class="top-things-detailed col">
-                    <a href="">Tallinn Music Week (TMW)</a>
+            <h3 id="recommended-event">Upcoming events in Tallinn</h3>
+            <div class="top-things row wrapper ">
+                <div class="top-things-detailed col ">
+                    <a href=" ">Tallinn Music Week (TMW)</a>
                 </div>
-                <div class="top-things-detailed col">
-                    <a href="">Jazzkaar</a>
+                <div class="top-things-detailed col ">
+                    <a href=" ">Jazzkaar</a>
                 </div>
-                <div class="top-things-detailed col">
-                    <a href="">Simple Session 2020</href="">
+                <div class="top-things-detailed col ">
+                    <a href=" ">Simple Session 2020</href=" ">
                 </div>
-                <div class="top-things-detailed col">
-                    <a href="">Tallinn Fashion Week</a>
+                <div class="top-things-detailed col ">
+                    <a href=" ">Tallinn Fashion Week</a>
                 </div>
-                <div class="top-things-detailed col">
-                    <a href="">Tallinn Craft Beer Weekend</a>
+                <div class="top-things-detailed col ">
+                    <a href=" ">Tallinn Craft Beer Weekend</a>
                 </div>
             </div>
 
-            <h3>Places not to miss</h3>
-            <div class="top-things row">
+            <h3 id="recommended-places">Places not to miss</h3>
+            <div class="top-things row ">
 
-                <div class="top-things-detailed col">
-                    <a href="">Seaplane Harbour</a>
+                <div class="top-things-detailed col ">
+                    <a href=" ">Seaplane Harbour</a>
                 </div>
-                <div class="top-things-detailed col">
-                    <a href="">PROTO Invention Factory</a>
+                <div class="top-things-detailed col ">
+                    <a href=" ">PROTO Invention Factory</a>
                 </div>
-                <div class="top-things-detailed col">
-                    <a href="">Fotografiska Tallinn</a>
+                <div class="top-things-detailed col ">
+                    <a href=" ">Fotografiska Tallinn</a>
                 </div>
-                <div class="top-things-detailed col">
-                    <a href="">Telliskivi Creative City</a>
+                <div class="top-things-detailed col ">
+                    <a href=" ">Telliskivi Creative City</a>
                 </div>
-                <div class="top-things-detailed col">
-                    <a href="">KUMU Art Museum</a>
-                </div>
-            </div>
-
-
-            <h3>Food and drinks</h3>
-            <div class="top-things row">
-
-                <div class="top-things-detailed col">
-                    <a href="">Rataskaevu 13</a>
-                </div>
-                <div class="top-things-detailed col">
-                    <a href="">Parrot Minibar</a>
-                </div>
-                <div class="top-things-detailed col">
-                    <a href="">180 by Mathias Diether </a>
-                </div>
-                <div class="top-things-detailed col">
-                    <a href="">Koht</a>
-                </div>
-                <div class="top-things-detailed col">
-                    <a href="">Manna La Roosa</a>
+                <div class="top-things-detailed col ">
+                    <a href=" ">KUMU Art Museum</a>
                 </div>
             </div>
 
 
-            <h3>Nightlife</h3>
-            <div class="top-things row">
+            <h3 id="recommended-food-drink">Food and drinks</h3>
+            <div class="top-things row ">
 
-                <div class="top-things-detailed col">
-                    <a href="">Frank Underground</a>
+                <div class="top-things-detailed col ">
+                    <a href=" ">Rataskaevu 13</a>
                 </div>
-                <div class="top-things-detailed col">
-                    <a href="">Kivi Paber Käärid</a>
+                <div class="top-things-detailed col ">
+                    <a href=" ">Parrot Minibar</a>
                 </div>
-                <div class="top-things-detailed col">
-                    <a href="">Shvips</a>
+                <div class="top-things-detailed col ">
+                    <a href=" ">180 by Mathias Diether </a>
                 </div>
-                <div class="top-things-detailed col">
-                    <a href="">The Club Of Various rooms</a>
+                <div class="top-things-detailed col ">
+                    <a href=" ">Koht</a>
                 </div>
-                <div class="top-things-detailed col">
-                    <a href="">Club Teater</a>
+                <div class="top-things-detailed col ">
+                    <a href=" ">Manna La Roosa</a>
+                </div>
+            </div>
+
+
+            <h3 id="recommended-nightlife">Nightlife</h3>
+            <div class="top-things row ">
+
+                <div class="top-things-detailed col ">
+                    <a href=" ">Frank Underground</a>
+                </div>
+                <div class="top-things-detailed col ">
+                    <a href=" ">Kivi Paber Käärid</a>
+                </div>
+                <div class="top-things-detailed col ">
+                    <a href=" ">Shvips</a>
+                </div>
+                <div class="top-things-detailed col ">
+                    <a href=" ">The Club Of Various rooms</a>
+                </div>
+                <div class="top-things-detailed col ">
+                    <a href=" ">Club Teater</a>
                 </div>
             </div>
         </div>
@@ -168,44 +172,44 @@
 
     <!--google maps section and search bar-->
     <section>
-        <div class="container justify-content-center">
-            <input type="text" placeholder="Search for locations" name="search">
-            <button type="submit"> <i class="fas fa-search-location"></i></button>
-            <div id="map"></div>
+        <div class="container justify-content-center ">
+            <input type="text " placeholder="Search for locations" name="search ">
+            <button type="submit"> <i class="fas fa-search-location "></i></button>
+            <div id="map "></div>
         </div>
     </section>
 
 
     <!--plan your travel section-->
     <section>
-
+        <div id="travel">Travel planner</div>
     </section>
 
     <!--footer-->
     <footer>
-        <div class="row  justify-content-between footer">
-            <div class="social-links col-md-3">
+        <div class="row justify-content-between footer ">
+            <div class="social-links col-md-3 ">
                 Social links
             </div>
 
-            <div class="local-help-links col-md-3">
+            <div class="local-help-links col-md-3 ">
                 Local help - Taxis, Public Transport, Event tickets
             </div>
 
 
 
-            <div class="newsletter-signup col-md-3">
-                <div class="form-group">
-                    <label for="newsletter-signup">Sign up for newsletter</label>
-                    <input type="email" class="form-control" id="newsletter-signup" aria-describedby="signUp" placeholder="Enter email">
-                    <small id="signUp" class="form-text text-muted">Sign up for the latest news and updates</small>
-                    <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+            <div class="newsletter-signup col-md-3 ">
+                <div class="form-group ">
+                    <label for="newsletter-signup ">Sign up for newsletter</label>
+                    <input type="email " class="form-control " id="newsletter-signup " aria-describedby="signUp " placeholder="Enter email ">
+                    <small id="signUp " class="form-text text-muted ">Sign up for the latest news and updates</small>
+                    <button type="submit " class="btn btn-primary btn-sm ">Submit</button>
                 </div>
             </div>
         </div>
 
         <div>
-            <div class="all-rights-reserved">
+            <div class="all-rights-reserved ">
                 All rights reserved @ MT Design 2019
             </div>
         </div>
@@ -225,8 +229,8 @@
     <script src="https://kit.fontawesome.com/adecd2bab8.js " crossorigin="anonymous "></script>
 
     <!--commented out gmaps to save API usage-->
-    <!--  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZL_iHNZkzJt2jXMT-IJf5ev7Jxv2g19w&callback=initMap"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZL_iHNZkzJt2jXMT-IJf5ev7Jxv2g19w&libraries=places"></script>-->
+    <!--  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZL_iHNZkzJt2jXMT-IJf5ev7Jxv2g19w&callback=initMap "></script>
+    <script type="text/javascript " src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZL_iHNZkzJt2jXMT-IJf5ev7Jxv2g19w&libraries=places "></script>-->
 
 </body>
 
