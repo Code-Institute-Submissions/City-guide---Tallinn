@@ -8,8 +8,6 @@
     <meta name="keywords" content="city, city guide, tallinn, estonia, visit tallinn">
     <meta name="author" content="Madis Tepp">
     <meta name="description" content="Tallinn city guide">
-    <script type="text/javascript" src="assets/js/maps.js"></script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Code+Pro:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
@@ -184,11 +182,17 @@
     <section>
         <form>
             <div class="form-row justify-content-center">
-                <div class="form-group col-md-2">
+                <div class="form-group col-4">
                     <input type="text" class="form-control" placeholder="From" required>
                 </div>
-                <div class="form-group col-md-2">
+                <div class="form-group col-4">
                     <input type="text" class="form-control" placeholder="To" required>
+                </div>
+                <div class="form-group col-2">
+                    <input type="text" class="form-control " id="choose_outbound" placeholder="Outbound">
+                </div>
+                <div class="form-group col-2">
+                    <input type=" text" class="form-control choose-date" id="choose_return" placeholder="Return">
                 </div>
             </div>
         </form>
@@ -197,19 +201,29 @@
     <!--footer-->
     <footer>
         <div class="row justify-content-between footer ">
-            <div class="social-links col-md-3 ">
-                Social links
+            <div class="social col ">
+                <h6>Follow us @ :</h6>
+                <div class="col-md-4 social-links ">
+                    <a href=" "><i class="fab fa-facebook "></i></a>
+                </div>
+                <div class="col-md-4 social-links ">
+                    <a href=" "><i class="fab fa-instagram "></i></a>
+                </div>
+                <div class="col-md-4 social-links ">
+                    <a href=" "><i class="fab fa-youtube "></i></a>
+                </div>
+                <div class="col-md-4 social-links ">
+                    <a href=" "><i class="fab fa-linkedin "></i></a>
+                </div>
+                <div class="col-md-4 social-links ">
+                    <a href=" "><i class="fab fa-twitter-square "></i></a>
+                </div>
+
             </div>
 
-            <div class="local-help-links col-md-3 ">
-                Local help - Taxis, Public Transport, Event tickets
-            </div>
-
-
-
-            <div class="newsletter-signup col-md-3 ">
+            <div class="newsletter-signup col ">
                 <div class="form-group ">
-                    <label for="newsletter-signup ">Sign up for newsletter</label>
+                    <label for="newsletter-signup ">Sign up for our newsletter</label>
                     <input type="email " class="form-control " id="newsletter-signup " aria-describedby="signUp " placeholder="Enter email ">
                     <small id="signUp " class="form-text text-muted ">Sign up for the latest news and updates</small>
                     <button type="submit " class="btn btn-primary btn-sm ">Submit</button>
@@ -219,9 +233,10 @@
 
         <div>
             <div class="all-rights-reserved ">
-                All rights reserved @ MT Design 2019
+                <p>All rights reserved @ MT Design 2019</p>
             </div>
         </div>
+
     </footer>
 
 
@@ -232,10 +247,13 @@
 
 
     <!--Scripts-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
     <script src="https://kit.fontawesome.com/adecd2bab8.js " crossorigin="anonymous "></script>
+    <script type="text/javascript" src="assets/js/maps.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
 
     <!--commented out gmaps to save API usage-->
     <!--  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZL_iHNZkzJt2jXMT-IJf5ev7Jxv2g19w&callback=initMap "></script>
