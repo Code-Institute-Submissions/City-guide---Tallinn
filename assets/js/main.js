@@ -10,3 +10,11 @@ function moveToTravel() {
     findOnPage.scrollIntoView();
 
 }
+
+
+///travel section calendar function///
+
+$(document).ready(function() {
+    $('#choose_outbound').datepicker();
+    $('#choose_return').datepicker();
+});
