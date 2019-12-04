@@ -113,20 +113,27 @@ BC Color:
     div#map {
         min-height: 360px;
     }
-    /*-------travel and hotels------*/
+    /*-------travel and hotels section------*/
     
-    form {}
+    .ui-datepicker {
+        background-color: #000000;
+        border: #ffffff;
+        border-radius: 10px;
+    }
     /*---footer sections styling---*/
     
     .footer {
         margin: 0px;
         background-color: #000000;
-        ;
+    }
+    
+    .social {
+        background-color: #000000;
+        color: ivory;
     }
     
     .social-links {
-        background-color: #000000;
-        color: ivory;
+        padding-left: 0px;
     }
     
     .local-help-links {
