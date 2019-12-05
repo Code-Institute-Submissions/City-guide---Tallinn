@@ -180,20 +180,36 @@
 
     <!--plan your travel section-->
     <section>
-        <form>
-            <div class="form-row justify-content-center">
-                <div class="form-group col-4">
+        <form class="travel-form">
+            <div class="row">
+                <div class="form-group col-md col-sm">
                     <input type="text" class="form-control" placeholder="From" required>
                 </div>
-                <div class="form-group col-4">
+                <div class="form-group col-md col-sm">
                     <input type="text" class="form-control" placeholder="To" required>
                 </div>
-                <div class="form-group col-2">
-                    <input type="text" class="form-control " id="choose_outbound" placeholder="Outbound">
+                <div class="form-group col-md-2 col-sm">
+                    <input type="text" class="form-control " id="choose_outbound" placeholder="Outbound" required>
                 </div>
-                <div class="form-group col-2">
-                    <input type=" text" class="form-control choose-date" id="choose_return" placeholder="Return">
+                <div class="form-group col-md-2 col-sm">
+                    <input type=" text" class="form-control choose-date" id="choose_return" placeholder="Return" required>
                 </div>
+                <div class="btn-group">
+                    <button class="btn btn-secondary btn-sm dropdown-toggle passengers" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         Passengers
+                   </button>
+                    <div class="dropdown-menu">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="flights" value="option1" checked>
+                <label class="form-check-label" for="flights">Flights</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="flights-hotels" value="option2">
+                <label class="form-check-label" for="flights-hotels">Flights and Hotel</label>
             </div>
         </form>
     </section>
