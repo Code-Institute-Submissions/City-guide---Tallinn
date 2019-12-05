@@ -120,6 +120,10 @@ BC Color:
         border: #ffffff;
         border-radius: 10px;
     }
+    
+    .passengers {
+        height: 35px;
+    }
     /*---footer sections styling---*/
     
     .footer {
