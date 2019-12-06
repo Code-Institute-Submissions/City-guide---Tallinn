@@ -130,6 +130,14 @@ BC Color:
     .flight-search {
         height: 37px;
     }
+    
+    .pax-count {
+        height: 30px;
+        width: 30px;
+        border: 1px solid black;
+    }
+    
+    ;
     /*---footer sections styling---*/
     
     .footer {
