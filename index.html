@@ -189,6 +189,10 @@
                 <div class="form-group col-md-4 col-sm">
                     <input type="text" class="form-control" placeholder="To" required>
                 </div>
+                <p>Passengers: </p>
+                <a type="button" class="pax-count" onclick='addPax()'>+</a>
+                <a type="button" class="pax-count">-</a>
+                <p class="pax-count" id="count"></p>
                 <button type="submit" class="btn btn-primary btn-sm flight-search">Search</button>
             </div>
             <div class="row">
@@ -238,8 +242,8 @@
             <div class="newsletter-signup col ">
                 <div class="form-group ">
                     <label for="newsletter-signup ">Sign up for our newsletter</label>
-                    <input type="email " class="form-control " id="newsletter-signup " aria-describedby="signUp " placeholder="Enter email ">
-                    <small id="signUp " class="form-text text-muted ">Sign up for the latest news and updates</small>
+                    <input type="email" class="form-control " id="newsletter-signup " aria-describedby="signUp " placeholder="Enter email" required>
+                    <small id="signUp" class="form-text text-muted ">Sign up for the latest news and updates</small>
                     <button type="submit " class="btn btn-primary btn-sm ">Submit</button>
                 </div>
             </div>
