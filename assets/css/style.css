@@ -115,14 +115,20 @@ BC Color:
     }
     /*-------travel and hotels section------*/
     
+    .travel-form {
+        border: blue solid 5px;
+        width: 80%;
+        padding: 20px 20px 20px 20px;
+    }
+    
     .ui-datepicker {
         background-color: #000000;
         border: #ffffff;
         border-radius: 10px;
     }
     
-    .passengers {
-        height: 35px;
+    .flight-search {
+        height: 37px;
     }
     /*---footer sections styling---*/
     
