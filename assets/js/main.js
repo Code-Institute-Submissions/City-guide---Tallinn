@@ -3,13 +3,13 @@ function moveTo() {
     let findOnPage = document.getElementById("recommended-event");
     findOnPage.scrollIntoView();
 
-}
+};
 
 function moveToTravel() {
     let findOnPage = document.getElementById("travel");
     findOnPage.scrollIntoView();
 
-}
+};
 
 
 ///travel section calendar function///
