@@ -180,48 +180,36 @@
 
     <!--plan your travel section-->
     <section>
+
         <form class="travel-form">
             <div class="row">
-                <div class="form-group col-md col-sm">
+                <div class="form-group col-md-4 col-sm">
                     <input type="text" class="form-control" placeholder="From" required>
                 </div>
-                <div class="form-group col-md col-sm">
+                <div class="form-group col-md-4 col-sm">
                     <input type="text" class="form-control" placeholder="To" required>
                 </div>
+                <button type="submit" class="btn btn-primary btn-sm flight-search">Search</button>
+            </div>
+            <div class="row">
                 <div class="form-group col-md-2 col-sm">
                     <input type="text" class="form-control " id="choose_outbound" placeholder="Outbound" required>
                 </div>
                 <div class="form-group col-md-2 col-sm">
                     <input type=" text" class="form-control choose-date" id="choose_return" placeholder="Return" required>
                 </div>
-                <div class="btn-group">
-                    <button class="btn btn-secondary btn-sm dropdown-toggle passengers" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                         Passengers
-                   </button>
-                    <div class="dropdown-menu">
-                        <div>Adult
-                            <button>-</button>
-                            <button>+</button>
-                            <div>0</div>
-                        </div>
-                        <div>Child
-                            <button>-</button>
-                            <button>+</button>
-                            <div>0</div>
-                        </div>
+                <div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="flights" value="option1" checked>
+                        <label class="form-check-label" for="flights">Flights</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="flights-hotels" value="option2">
+                        <label class="form-check-label" for="flights-hotels">Flights and Hotel</label>
                     </div>
                 </div>
-            </div>
-
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="flights" value="option1" checked>
-                <label class="form-check-label" for="flights">Flights</label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="flights-hotels" value="option2">
-                <label class="form-check-label" for="flights-hotels">Flights and Hotel</label>
-            </div>
         </form>
+
     </section>
 
     <!--footer-->
