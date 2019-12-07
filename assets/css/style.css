@@ -6,6 +6,11 @@ BC Color:
 2nd : #000000
 3rd : #FFFFFF
 -*/
+    /*---------------------------HTML--------------*/
+    
+    html {
+        scroll-behavior: smooth;
+    }
     /*-----heading and navbar styling*/
     
     .heading {
@@ -29,6 +34,7 @@ BC Color:
         background-color: #ffffff;
         border-radius: 10px;
         width: 150px;
+        cursor: pointer;
     }
     
     .navbar-dark .navbar-nav .nav-link {
