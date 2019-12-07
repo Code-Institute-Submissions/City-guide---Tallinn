@@ -127,7 +127,7 @@
             <div class="top-things row ">
 
                 <div class="top-things-detailed col ">
-                    <a href=" ">Rataskaevu 13</a>
+                    <a href=" ">Rataskaevu 16</a>
                 </div>
                 <div class="top-things-detailed col ">
                     <a href=" ">Parrot Minibar</a>
@@ -170,17 +170,16 @@
 
     <!--google maps section and search bar-->
     <section>
-        <div class="container justify-content-center ">
-            <input type="text " placeholder="Search for locations" name="search ">
+        <div class="container justify-content-center map-and-search">
+            <input type="text " placeholder="Search for locations" name="search">
             <button type="submit"> <i class="fas fa-search-location "></i></button>
-            <div id="map "></div>
+            <div id="map"></div>
         </div>
     </section>
 
 
     <!--plan your travel section-->
     <section>
-
         <form class="travel-form">
             <div class="row">
                 <div class="form-group col-md-4 col-sm">
@@ -213,7 +212,6 @@
                     </div>
                 </div>
         </form>
-
     </section>
 
     <!--footer-->
@@ -272,10 +270,13 @@
     <script src="https://kit.fontawesome.com/adecd2bab8.js " crossorigin="anonymous "></script>
     <script type="text/javascript" src="assets/js/maps.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZL_iHNZkzJt2jXMT-IJf5ev7Jxv2g19w&callback=initMap "></script>
+    <script type="text/javascript " src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZL_iHNZkzJt2jXMT-IJf5ev7Jxv2g19w&libraries=places "></script>
 
-    <!--commented out gmaps to save API usage-->
-    <!--  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZL_iHNZkzJt2jXMT-IJf5ev7Jxv2g19w&callback=initMap "></script>
-    <script type="text/javascript " src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZL_iHNZkzJt2jXMT-IJf5ev7Jxv2g19w&libraries=places "></script>-->
+
+
+
 
 </body>
 
