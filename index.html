@@ -190,9 +190,9 @@
                     <input type="text" class="form-control" placeholder="To" required>
                 </div>
                 <p>Passengers: </p>
-                <a type="button" class="pax-count" id="increaseCount">+</a>
-                <a type="button" class="pax-count" id="decreaseCount">-</a>
-                <span class="pax-count" id="count"></span>
+                <a type="button" class="pax-count" onclick='incrementCounter()'>+</a>
+                <a type="button" class="pax-count" onclick='decrementCounter()'>-</a>
+                <span class="pax-count" id="count">0</span>
                 <button type="submit" class="btn btn-primary btn-sm flight-search">Search</button>
             </div>
             <div class="row">
