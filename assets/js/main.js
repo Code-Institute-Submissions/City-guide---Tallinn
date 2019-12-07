@@ -12,6 +12,24 @@ function moveToTravel() {
 };
 
 
+let counter = document.getElementById('count'),
+    count = 0;
+
+function incrementCounter() {
+    if (count < 9) {
+        count += 1;
+    }
+    counter.innerHTML = count;
+};
+
+function decrementCounter() {
+    if (count > 0) {
+        count -= 1;
+    }
+    counter.innerHTML = count;
+};
+
+
 ///travel section calendar function///
 
 $(document).ready(function() {
