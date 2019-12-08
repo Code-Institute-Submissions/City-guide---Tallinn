@@ -6,13 +6,10 @@ function initMap() {
         center: { lat: 59.4370, lng: 24.7536 },
         zoom: 10
     });
-
-
 };
 
 
 ///search function return string ///
-
 
 function searchTxt() {
     var inputTxt = document.getElementById('map_search').value;
