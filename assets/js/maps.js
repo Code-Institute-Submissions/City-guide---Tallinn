@@ -1,4 +1,4 @@
-//below code is taken from developer.google.com as it's a part of google.maps API documentation
+//parts of below code is taken from developer.google.com as it's a part of google.maps API documentation
 //and is required to make google maps function
 
 function initMap() {
@@ -6,12 +6,14 @@ function initMap() {
         center: { lat: 59.4370, lng: 24.7536 },
         zoom: 10
     });
-};
+
+    var location = getElementById('map_search');
+
+    var autocomplete = new google.maps.places.Autocomplete(location);
+
+    autocomplete.setFields(
+        ['address_components', 'geometry', 'icon', 'name']);
 
 
-///search function return string ///
-
-function searchTxt() {
-    var inputTxt = document.getElementById('map_search').value;
-    console.log(inputTxt);
+    autocomplete.bindTo('bounds', map);
 };
