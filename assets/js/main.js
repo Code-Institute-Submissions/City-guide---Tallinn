@@ -12,7 +12,6 @@ function moveToTravel() {
 };
 
 
-
 ///travel section customer counter function///
 
 let counter = document.getElementById('count'),
