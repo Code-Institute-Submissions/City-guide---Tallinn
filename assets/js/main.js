@@ -52,5 +52,4 @@ function registerToNewsLetter() {
         })
         alert('Sign up successful')
     }
-
 };
