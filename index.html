@@ -11,7 +11,12 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Code+Pro:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_oLKaNzwNYlCWxzPik6JtJ");
+        })();
+    </script>
     <title>Tallinn guide by - MT Design</title>
 </head>
 
@@ -238,12 +243,11 @@
             </div>
 
             <div class="newsletter-signup col ">
-                <div class="form-group ">
+                <form class="form-group">
                     <label for="newsletter-signup ">Sign up for our newsletter</label>
-                    <input type="email" class="form-control " id="newsletter-signup " aria-describedby="signUp " placeholder="Enter email" required>
-                    <small id="signUp" class="form-text text-muted ">Sign up for the latest news and updates</small>
-                    <button type="submit " class="btn btn-primary btn-sm ">Submit</button>
-                </div>
+                    <input autocomplete="off" type="email" class="form-control " id="newsletter-signup" aria-describedby="signUp " placeholder="Enter email" required>
+                    <input type="submit" class="btn btn-primary btn-sm" onclick="registerToNewsLetter()">
+                </form>
             </div>
         </div>
 

@@ -36,3 +36,21 @@ $(document).ready(function() {
     $('#choose_outbound').datepicker();
     $('#choose_return').datepicker();
 });
+
+
+///newsletter signup functions/// /
+
+function registerToNewsLetter() {
+
+    var inputEmail = document.getElementById('newsletter-signup').value;
+
+    if (inputEmail === "") {
+        alert('You need to fill in e-mail address')
+    } else {
+        emailjs.send("gmail", "newsletter_signup", {
+            "e_mail": inputEmail
+        })
+        alert('Sign up successful')
+    }
+
+};
