@@ -137,8 +137,19 @@ font-family: 'Roboto Mono', monospace;
     
     .ui-datepicker {
         background-color: #000000;
-        border: #ffffff;
+        border: 1px solid silver;
         border-radius: 10px;
+    }
+    
+    span {
+        background-color: #000000;
+        border: 1px solid silver;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    
+    span:hover {
+        color: firebrick;
     }
     
     .flight-search {
