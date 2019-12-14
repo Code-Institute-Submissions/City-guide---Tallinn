@@ -19,11 +19,10 @@ function initMap() {
     });
 
     var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
-
 };
 
 var locations = [
-    { lat: 59.4516884, lng: 24.7383098, info: "Seaplane Harbour http://meremuuseum.ee/lennusadam/en/" },
+    { lat: 59.4516884, lng: 24.7383098 },
     { lat: 59.4515258, lng: 24.7296698 },
     { lat: 59.4383745, lng: 24.7283514 },
     { lat: 59.439518, lng: 24.7284773 },
