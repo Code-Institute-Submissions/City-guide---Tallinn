@@ -32,18 +32,12 @@ BC Color:
         text-align: center;
         margin: 10px;
         background-color: #ffffff;
-        border-radius: 10px;
         width: 150px;
         cursor: pointer;
     }
     
     .navbar-dark .navbar-nav .nav-link {
         color: #000000;
-    }
-    
-    .navbar-dark .navbar-nav .nav-link:hover {
-        color: #000000;
-        font-weight: bolder;
     }
     
     .navbar {
@@ -182,6 +176,31 @@ BC Color:
     .newsletter-signup {
         color: ivory;
         background-color: #000000;
+    }
+    /*----------------a tag hover styling----------------*/
+    
+    a:hover {
+        font-weight: bolder;
+        color: firebrick;
+        background: gold;
+        transition-duration: 0.2s;
+        animation-duration: 0.2s;
+        text-decoration: none;
+    }
+    /*----------------btn styling-----------*/
+    
+    .btn-primary {
+        background-color: blanchedalmond;
+        color: darkslategray;
+        border: 1px solid black;
+    }
+    
+    .btn-primary:hover {
+        font-weight: bolder;
+        color: firebrick;
+        background: gold;
+        transition-duration: 0.2s;
+        animation-duration: 0.2s;
     }
     /*--------media queries------*/
     
