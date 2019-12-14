@@ -1,15 +1,17 @@
     /*-
 Font: 
 font-family: 'Roboto Mono', monospace;
-BC Color: 
-1st : #237AEB
-2nd : #000000
-3rd : #FFFFFF
--*/
+
     /*---------------------------HTML--------------*/
     
     html {
         scroll-behavior: smooth;
+    }
+    /*-----------all text styling-------------*/
+    
+    * {
+        font-family: 'Roboto Mono', monospace;
+        font-size: small;
     }
     /*-----heading and navbar styling*/
     
@@ -26,6 +28,8 @@ BC Color:
         background-color: rgb(26, 7, 204);
         margin: 0px;
         height: 60px;
+        font-weight: bolder;
+        color: black;
     }
     
     .guide-button {
@@ -60,6 +64,7 @@ BC Color:
         padding-top: 30px;
         padding-bottom: 30px;
         background-color: rgb(26, 7, 204);
+        color: black;
     }
     /*--my recommendations sections--*/
     
@@ -90,6 +95,7 @@ BC Color:
     h3 {
         text-align: center;
         color: #ffffff;
+        background-color: #3f3e3f;
     }
     
     .activities-bg-img {
@@ -166,6 +172,7 @@ BC Color:
         color: ivory;
         text-align: center;
         background-color: #000000;
+        position: fixed;
     }
     
     .newsletter-signup {
@@ -178,6 +185,7 @@ BC Color:
         font-weight: bolder;
         color: firebrick;
         background: gold;
+        border: silver;
         transition-duration: 0.2s;
         animation-duration: 0.2s;
         text-decoration: none;
@@ -194,6 +202,7 @@ BC Color:
         font-weight: bolder;
         color: firebrick;
         background: gold;
+        border: silver;
         transition-duration: 0.2s;
         animation-duration: 0.2s;
     }
@@ -205,5 +214,8 @@ BC Color:
         }
         .activities-bg-img {
             background-attachment: scroll !important;
+        }
+        .events-section {
+            overflow-y: scroll;
         }
     }
