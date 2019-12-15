@@ -68,6 +68,10 @@ font-family: 'Roboto Mono', monospace;
     }
     /*--my recommendations sections--*/
     
+    #activities {
+        display: none;
+    }
+    
     .recommendations-intro {
         padding: 30px;
     }
