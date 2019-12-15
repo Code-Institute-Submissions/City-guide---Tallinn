@@ -146,14 +146,13 @@ font-family: 'Roboto Mono', monospace;
     }
     
     span {
-        background-color: #000000;
-        border: 1px solid silver;
-        color: #ffffff;
+        background-color: #ffffff;
+        color: #000000;
         cursor: pointer;
     }
     
     span:hover {
-        color: firebrick;
+        color: rgb(59, 59, 59);
     }
     
     .flight-search {
