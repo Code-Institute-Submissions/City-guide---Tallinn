@@ -40,7 +40,7 @@ $(document).ready(function() {
 });
 
 
-///newsletter signup functions/// /
+///newsletter signup functions///
 
 function registerToNewsLetter() {
 
@@ -55,3 +55,10 @@ function registerToNewsLetter() {
         alert('Sign up successful')
     }
 };
+
+
+//click function to hides and show recommendatios section// 
+
+$('#hide_show_activities').click(function() {
+    $('#activities').toggle('slow');
+})
