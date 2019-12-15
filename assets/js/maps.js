@@ -38,7 +38,7 @@ function initMap() {
             map.fitBounds(place.geometry.viewport);
         } else {
             map.setCenter(place.geometry.location);
-            map.setZoom(14);
+            map.setZoom(16);
         }
         marker.setIcon(({
             url: place.icon,
