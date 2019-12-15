@@ -11,8 +11,8 @@ function initMap() {
 
     var searchInput = document.getElementById('map_search');
 
-    //autocomplete and search function code has been taken from codexworld solutio
-    //with some adjustments made to work for this site
+    //autocomplete and search function code has been taken from codexworld solution
+    //with some adjustments made to personalise for this site
 
     var autocomplete = new google.maps.places.Autocomplete(searchInput);
     autocomplete.bindTo('bounds', map)
