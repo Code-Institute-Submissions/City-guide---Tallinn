@@ -23,6 +23,9 @@ function initMap() {
         anchorPoint: new google.maps.Point(59.4370, 24.7536)
     })
 
+
+
+
     autocomplete.addListener('place_changed', function() {
         infowindow.close();
         marker.setVisible(false);
@@ -49,6 +52,8 @@ function initMap() {
 
 
     })
+
+
 
     var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
