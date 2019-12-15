@@ -11,7 +11,8 @@ function initMap() {
 
     var searchInput = document.getElementById('map_search');
 
-    //autocomplete and search function code has been take form codexworld solution
+    //autocomplete and search function code has been taken from codexworld solutio
+    //with some adjustments made to work for this site
 
     var autocomplete = new google.maps.places.Autocomplete(searchInput);
     autocomplete.bindTo('bounds', map)
@@ -38,24 +39,12 @@ function initMap() {
         }
         marker.setIcon(({
             url: place.icon,
-            size: new google.maps.Size(71, 71),
-            origin: new google.maps.Point(0, 0),
-            anchor: new google.maps.Point(17, 34),
             scaledSize: new google.maps.Size(35, 35)
         }));
         marker.setPosition(place.geometry.location);
         marker.setVisible(true);
 
-        var address = '';
-        if (place.address_components) {
-            address = [
-                (place.address_components[0] && place.address_components[0].short.name || ''),
-                (place.address_components[1] && place.address_components[1].short.name || ''),
-                (place.address_components[2] && place.address_components[2].short.name || ''),
-            ].join(' ');
-        }
-        infowindow.setContent('<div><strong>' + place.name + '</strong></div>' + address);
-        infowindow.open(map.marker);
+
 
 
 
