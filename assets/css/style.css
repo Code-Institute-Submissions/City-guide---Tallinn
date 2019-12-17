@@ -1,7 +1,3 @@
-    /*-
-Font: 
-font-family: 'Roboto Mono', monospace;
-
     /*---------------------------HTML--------------*/
     
     html {
@@ -29,7 +25,7 @@ font-family: 'Roboto Mono', monospace;
         margin: 0px;
         height: 60px;
         font-weight: bolder;
-        color: black;
+        color: rgb(255, 255, 255);
     }
     
     .guide-button {
@@ -64,7 +60,7 @@ font-family: 'Roboto Mono', monospace;
         padding-top: 30px;
         padding-bottom: 30px;
         background-color: rgb(26, 7, 204);
-        color: black;
+        color: rgb(255, 255, 255);
     }
     /*--my recommendations sections--*/
     
@@ -173,25 +169,16 @@ font-family: 'Roboto Mono', monospace;
         background-color: #000000;
     }
     
-    .social {
+    .social,
+    .newsletter-signup,
+    .all-rights-reserved {
         background-color: #000000;
         color: ivory;
-    }
-    
-    .social-links {
         padding-left: 0px;
     }
     
-    .all-rights-reserved {
-        color: ivory;
-        text-align: center;
-        background-color: #000000;
-        position: fixed;
-    }
-    
-    .newsletter-signup {
-        color: ivory;
-        background-color: #000000;
+    .newsletter-form {
+        width: 50%;
     }
     /*----------------a tag hover styling----------------*/
     
