@@ -220,43 +220,31 @@
     </section>
 
     <!--footer-->
-    <footer>
-        <div class="row justify-content-between footer">
-            <div class="social col ">
-                <h6>Follow us @ :</h6>
-                <div class="col-md-4 social">
-                    <a href=" "><i class="fab fa-facebook"></i></a>
-                </div>
-                <div class="col-md-4 social ">
-                    <a href=" "><i class="fab fa-instagram"></i></a>
-                </div>
-                <div class="col-md-4 social">
-                    <a href=" "><i class="fab fa-youtube"></i></a>
-                </div>
-                <div class="col-md-4 social ">
-                    <a href=" "><i class="fab fa-linkedin"></i></a>
-                </div>
-                <div class="col-md-4 social">
-                    <a href=" "><i class="fab fa-twitter-square"></i></a>
-                </div>
+    <footer class="row footer newsletter-signup social">
 
-            </div>
-
-            <div class="newsletter-signup col">
-                <form class="form-group " onsubmit="return false ">
-                    <label for="newsletter-signup">Sign up for our newsletter</label>
-                    <input autocomplete="off " type="email " class="form-control " id="newsletter-signup" aria-describedby="signUp " placeholder="Enter email " required>
-                    <input type="submit" class="btn btn-primary btn-sm" onclick="registerToNewsLetter() ">
-                </form>
-            </div>
+        <div class="col-md-6">
+            <a href=" "><i class="fab fa-facebook"></i></a>
+            <a href=" "><i class="fab fa-instagram"></i></a>
+            <a href=" "><i class="fab fa-youtube"></i></a>
+            <a href=" "><i class="fab fa-linkedin"></i></a>
+            <a href=" "><i class="fab fa-twitter-square"></i></a>
         </div>
 
-        <div>
-            <div class="all-rights-reserved">
+
+        <div class="col-md-6">
+            <form class="form-group newsletter-form" onsubmit="return false ">
+                <label for="newsletter-signup">Sign up for our newsletter</label>
+                <input autocomplete="off " type="email " class="form-control " id="newsletter-signup" aria-describedby="signUp " placeholder="Enter email " required>
+                <input type="submit" class="btn btn-primary btn-sm" onclick="registerToNewsLetter() ">
+            </form>
+        </div>
+
+
+        <div class="row all-rights-reserved justify-content-center">
+            <div class="col">
                 <p>All rights reserved @ MT Design 2019</p>
             </div>
         </div>
-
     </footer>
 
 
@@ -276,15 +264,6 @@
     <script type="text/javascript" src="assets/js/main.js "></script>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js "></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZL_iHNZkzJt2jXMT-IJf5ev7Jxv2g19w&libraries=places&callback=initMap"></script>
-
-
-
-
-
-
-
-
-
 
 </body>
 
