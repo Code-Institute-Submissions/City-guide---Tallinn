@@ -21,7 +21,7 @@
     
     .site-intro {
         text-align: center;
-        background-color: rgb(26, 7, 204);
+        background-color: rgb(15, 8, 83);
         margin: 0px;
         height: 60px;
         font-weight: bolder;
@@ -41,7 +41,11 @@
     }
     
     .navbar {
-        background-color: rgb(26, 7, 204);
+        background-color: rgb(15, 8, 83);
+    }
+    
+    .abt-tallinn {
+        background-color: rgb(0, 58, 250);
     }
     /*---between sections image---*/
     
@@ -59,7 +63,7 @@
         text-align: center;
         padding-top: 30px;
         padding-bottom: 30px;
-        background-color: rgb(26, 7, 204);
+        background-color: rgb(15, 8, 83);
         color: rgb(255, 255, 255);
     }
     /*--my recommendations sections--*/
