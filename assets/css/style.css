@@ -68,10 +68,6 @@
     }
     /*--my recommendations sections--*/
     
-    #activities {
-        display: none;
-    }
-    
     .recommendations-intro {
         padding: 30px;
     }
@@ -82,10 +78,6 @@
         padding-bottom: 30px;
         background-color: #000000;
         color: #ffffff;
-    }
-    
-    .top-things {
-        text-align: center;
     }
     
     .top-things-detailed {
@@ -109,6 +101,10 @@
         background-size: cover;
         background-attachment: fixed;
         height: 500px;
+    }
+    
+    .events {
+        display: none;
     }
     
     a {
