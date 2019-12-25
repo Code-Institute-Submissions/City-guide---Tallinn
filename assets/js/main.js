@@ -59,6 +59,6 @@ function registerToNewsLetter() {
 
 //click function to hides and show recommendatios section// 
 
-$('#hide-events').click(function() {
-    $('.events').slideToggle('slow');
+$('.hide-events').click(function() {
+    $(this).parent().next('div').slideToggle('slow');
 })
