@@ -62,9 +62,24 @@ function registerToNewsLetter() {
 $(document).ready(function() {
 
 
-    $('.hide-events').on('click', function() {
-        $(this).parent().next('div').toggle('slow')
+    $('#recommended-event').on('click', function() {
+        $('.events').toggle('slow')
+        $(this).siblings().hide();
     })
+
+    $('#recommended-places').on('click', function() {
+        $('.places').toggle('slow')
+    })
+
+    $('#recommended-food-drink').on('click', function() {
+        $('.food-drinks').toggle('slow')
+    })
+
+    $('#recommended-nightlife').on('click', function() {
+        $('.nightlife').toggle('slow')
+    })
+
+
 
 
 })
