@@ -3,6 +3,11 @@
     html {
         scroll-behavior: smooth;
     }
+    /*----------------------applies to all elements-----*/
+    
+    .row {
+        margin: 0px;
+    }
     /*-----------all text styling-------------*/
     
     * {
@@ -72,6 +77,21 @@
         padding: 30px;
     }
     
+    .rec-heading {
+        background-color: rgb(124, 0, 0);
+        color: white;
+        border: white solid 1px;
+        text-align: center;
+        cursor: pointer;
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+    
+    .rec-heading:hover {
+        background-color: rgb(83, 0, 0);
+        transition-duration: 0.5s;
+    }
+    
     .recommendations {
         text-align: center;
         padding-top: 30px;
@@ -88,11 +108,6 @@
         background-color: black;
     }
     
-    h3 {
-        text-align: center;
-        color: #ffffff;
-    }
-    
     .activities-bg-img {
         background-image: url("/assets/images/gleb-makarov-yDPm04K3e9Y-unsplash.jpg");
         background-position: center;
@@ -102,16 +117,15 @@
         height: 500px;
     }
     
-    .events {
-        display: none;
-    }
-    
     a {
         color: #ffffff;
     }
     
-    .row {
-        margin: 0px;
+    .events,
+    .food-drinks,
+    .nightlife,
+    .places {
+        display: none;
     }
     /*-------map section---------*/
     
@@ -168,6 +182,10 @@
         background-color: #000000;
     }
     
+    .footer>row {
+        padding: 0px;
+    }
+    
     .social,
     .newsletter-signup,
     .all-rights-reserved {
@@ -214,8 +232,5 @@
         }
         .activities-bg-img {
             background-attachment: scroll !important;
-        }
-        .events-section {
-            overflow-y: scroll;
         }
     }
