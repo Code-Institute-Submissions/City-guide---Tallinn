@@ -1,6 +1,6 @@
 //click on top nav button to move further down the page to specific section//
 function moveTo() {
-    let findOnPage = document.getElementById("recommended-event");
+    let findOnPage = document.getElementById("recommendations");
     findOnPage.scrollIntoView();
 };
 
