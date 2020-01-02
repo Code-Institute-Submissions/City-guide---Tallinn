@@ -113,7 +113,8 @@
         text-align: center;
         padding: 10px;
         border-radius: 10px;
-        background-color: black;
+        background-color: #dddbe2;
+        color: #000000;
     }
     
     .activities-bg-img {
@@ -133,7 +134,7 @@
     .food-drinks,
     .nightlife,
     .places {
-        display: none;
+        visibility: hidden;
     }
     /*-------map section---------*/
     
