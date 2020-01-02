@@ -100,7 +100,7 @@
         transition-duration: 0.5s;
     }
     
-    .recommendations {
+    #recommendations {
         text-align: center;
         padding-top: 30px;
         padding-bottom: 30px;
@@ -123,11 +123,21 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        height: 550px;
+        height: auto;
     }
     
     a {
         color: #ffffff;
+        cursor: pointer;
+    }
+    
+    .events,
+    .places,
+    .food-drinks,
+    .nightlife {
+        display: none;
+        width: 60%;
+        opacity: 0.9;
     }
     /*-------map section---------*/
     
