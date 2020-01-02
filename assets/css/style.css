@@ -129,13 +129,6 @@
     a {
         color: #ffffff;
     }
-    
-    .events,
-    .food-drinks,
-    .nightlife,
-    .places {
-        display: none;
-    }
     /*-------map section---------*/
     
     div#map {
