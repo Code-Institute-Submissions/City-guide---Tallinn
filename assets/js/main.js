@@ -62,24 +62,33 @@ function registerToNewsLetter() {
 $(document).ready(function() {
 
 
-    $('#recommended-event').on('click', function() {
-        $('.events').toggle('slow')
-        $(this).siblings().hide();
-    })
+    $('#recommended-event').click(function() {
+        if ($('.events').css('visibility') == 'hidden')
+            $('.events').css('visibility', 'visible');
+        else
+            $('.events').css('visibility', 'hidden');
+    });
 
-    $('#recommended-places').on('click', function() {
-        $('.places').toggle('slow')
-    })
+    $('#recommended-places').click(function() {
+        if ($('.places').css('visibility') == 'hidden')
+            $('.places').css('visibility', 'visible');
+        else
+            $('.places').css('visibility', 'hidden');
+    });
 
-    $('#recommended-food-drink').on('click', function() {
-        $('.food-drinks').toggle('slow')
-    })
-
-    $('#recommended-nightlife').on('click', function() {
-        $('.nightlife').toggle('slow')
-    })
-
+    $('#recommended-food-drink').click(function() {
+        if ($('.food-drinks').css('visibility') == 'hidden')
+            $('.food-drinks').css('visibility', 'visible');
+        else
+            $('.food-drinks').css('visibility', 'hidden');
+    });
 
 
+    $('#recommended-nightlife').click(function() {
+        if ($('.nightlife').css('visibility') == 'hidden')
+            $('.nightlife').css('visibility', 'visible');
+        else
+            $('.nightlife').css('visibility', 'hidden');
+    });
 
 })
