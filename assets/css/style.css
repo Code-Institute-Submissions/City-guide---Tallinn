@@ -59,12 +59,12 @@
     /*---between sections image---*/
     
     .tallinn-old-town {
-        background-image: url("/assets/images/nikola-johnny-mirkovic-DXfbUCVg4zE-unsplash.jpg");
+        background-image: url("/assets/images/ilya-orehov-3ZWSDuaE_Go-unsplash-copy.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        height: 500px;
+        height: 400px;
     }
     /*----about the city section styling----*/
     
@@ -114,6 +114,10 @@
         padding: 10px;
         border-radius: 10px;
         background-color: #dddbe2;
+        color: #000000;
+    }
+    
+    .top-things-detailed>a {
         color: #000000;
     }
     
@@ -244,5 +248,12 @@
         }
         .activities-bg-img {
             background-attachment: scroll !important;
+        }
+        .events,
+        .places,
+        .food-drinks,
+        .nightlife {
+            display: none;
+            width: 80%;
         }
     }
