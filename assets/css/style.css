@@ -50,7 +50,11 @@
     }
     
     .abt-tallinn {
-        background-color: rgb(0, 58, 250);
+        padding: 30px;
+        background-color: #dddbe2;
+        width: 90%;
+        color: #000000;
+        font-weight: bold;
     }
     /*---between sections image---*/
     
@@ -75,6 +79,10 @@
     
     .recommendations-intro {
         padding: 30px;
+        background-color: #dddbe2;
+        width: 90%;
+        color: #000000;
+        font-weight: bold;
     }
     
     .rec-heading {
