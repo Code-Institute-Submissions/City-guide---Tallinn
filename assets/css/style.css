@@ -134,7 +134,7 @@
     .food-drinks,
     .nightlife,
     .places {
-        visibility: hidden;
+        display: none;
     }
     /*-------map section---------*/
     
