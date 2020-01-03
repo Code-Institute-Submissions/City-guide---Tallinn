@@ -122,7 +122,7 @@
     }
     
     .activities-bg-img {
-        background-image: url("/assets/images/gleb-makarov-yDPm04K3e9Y-unsplash.jpg");
+        background-image: url("/assets/images/artem-sapegin-unsplash.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -169,6 +169,10 @@
         background-color: #dddbe2;
         border: 1px solid #000000;
         border-radius: 10px;
+    }
+    
+    .ui-state-default {
+        color: #000000;
     }
     
     span {
