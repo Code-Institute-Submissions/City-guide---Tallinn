@@ -158,20 +158,21 @@
     /*-------travel and hotels section------*/
     
     .travel-form {
-        border: blue solid 5px;
+        background-color: #838485;
+        border: #000000 1px solid;
         width: 80%;
         padding: 20px 20px 20px 20px;
         margin: 20px auto;
     }
     
     .ui-datepicker {
-        background-color: #000000;
-        border: 1px solid silver;
+        background-color: #dddbe2;
+        border: 1px solid #000000;
         border-radius: 10px;
     }
     
     span {
-        background-color: #ffffff;
+        background-color: #dddbe2;
         color: #000000;
         cursor: pointer;
     }
@@ -190,7 +191,10 @@
         border: 1px solid black;
     }
     
-    ;
+    .search {
+        border: #000000 1px solid;
+        background-color: #dddbe2;
+    }
     /*---footer sections styling---*/
     
     .footer {
