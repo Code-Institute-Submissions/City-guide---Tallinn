@@ -3,7 +3,7 @@
     html {
         scroll-behavior: smooth;
     }
-    /*----------------------applies to all elements-----*/
+    /*----------------------applies to all .row classes -----*/
     
     .row {
         margin: 0px;
@@ -56,7 +56,7 @@
         color: #000000;
         font-weight: bold;
     }
-    /*---between sections image---*/
+    /*---between about and recommendations section image---*/
     
     .tallinn-old-town {
         background-image: url("/assets/images/ilya-orehov-3ZWSDuaE_Go-unsplash-copy.jpg");
