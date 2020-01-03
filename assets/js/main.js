@@ -11,7 +11,7 @@ function moveToTravel() {
 };
 
 
-///travel section customer counter function///
+///travel section customer counter function, can count up to max 9 passengers which is travel industry standard per reservation///
 
 let counter = document.getElementById('count'),
     count = 0;
@@ -39,7 +39,7 @@ $(document).ready(function() {
 });
 
 
-///newsletter signup functions///
+///newsletter signup functions, generates email to site owner, in case of succesful and correct data or if incorrect alert is displayed///
 
 function registerToNewsLetter() {
 
@@ -56,7 +56,7 @@ function registerToNewsLetter() {
 };
 
 
-//click function to hides and show recommendatios section// 
+//click function to hides and show recommendatios section when clicked on specific option// 
 
 
 $(document).ready(function() {
