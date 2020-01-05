@@ -155,6 +155,12 @@
         padding: 15px;
         margin-top: 20px;
     }
+    
+    .place-search {
+        border: 1px solid black;
+        background-color: #dddbe2;
+        padding: 3px;
+    }
     /*-------travel and hotels section------*/
     
     .travel-form {
