@@ -91,12 +91,12 @@ function initMap() {
 
 
 
-
-    // getNearbyPlaces(pos); -- commented out as nearbyplaces function not used at this stage 
 }
 
 
 
+
+// getNearbyPlaces(pos); -- commented out as nearbyplaces function not used at this stage 
 
 /* code commented out as not relevant at this point
 
