@@ -223,7 +223,7 @@ function MathiasD() {
 }
 
 
-//9 bar : koht 
+//9. bar : koht 
 
 
 function koht() {
