@@ -85,6 +85,14 @@
         font-weight: bold;
     }
     
+    .moreInfo {
+        padding: 30px;
+        background-color: #dddbe2;
+        width: 40%;
+        color: #000000;
+        font-weight: bold;
+    }
+    
     .rec-heading {
         background-color: rgb(124, 0, 0);
         color: white;
