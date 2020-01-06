@@ -130,7 +130,7 @@
     }
     
     .activities-bg-img {
-        background-image: url("/assets/images/artem-sapegin-unsplash.jpg");
+        background-image: url("../images/artem-sapegin-unsplash.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
