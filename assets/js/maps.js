@@ -1,12 +1,10 @@
-/////////code copied from developers.google.com and adjusted to work for current webpage//////
+/////////maps code for searchbox and autocomplete taken mainly from developers.google.com 
+//and adjusted to work for current webpage//////
 
 let pos;
 let map;
 
 
-
-
-/// let searchInfo; - commented out as part of nearbyplaces function which is not used at this stage
 
 
 function initMap() {
@@ -94,8 +92,11 @@ function initMap() {
 }
 
 
+
+
+
 ////below function will , onclick , display the marker of the recommended location on google maps
-/// and scrolls user to view map
+/// and move viewpoint on the map 
 
 
 
