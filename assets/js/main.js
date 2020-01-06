@@ -82,12 +82,4 @@ $(document).ready(function() {
         $('.nightlife').toggle('slow')
         $('.places, .food-drinks, .events').hide('slow')
     })
-
-
-    //function to get recommendations value and pass it to maps 
-
-    $('.rec-value-btn').on('click', function() {
-        $('#map_search').val('seaplane harbour').trigger('keypress')
-    })
-
 })
