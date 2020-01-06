@@ -17,7 +17,7 @@
     /*-----heading and navbar styling*/
     
     .heading {
-        background-image: url("/assets/images/karson-NyIBNMueUQI-unsplash.jpg");
+        background-image: url("../images/karson-NyIBNMueUQI-unsplash.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -59,7 +59,7 @@
     /*---between about and recommendations section image---*/
     
     .tallinn-old-town {
-        background-image: url("/assets/images/ilya-orehov-3ZWSDuaE_Go-unsplash-copy.jpg");
+        background-image: url("../images/ilya-orehov-3ZWSDuaE_Go-unsplash-copy.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
