@@ -114,7 +114,7 @@ https://www.w3schools.com/ has been a great help in solving some of the problems
 
 https://stackoverflow.com/ used to help with problem solving.
 
-Code Institute Slack channel and channel leads were of great support during coding phase.
+Code Institute Slack channel and channel leads  as well as Tutor support were of great support during coding phase.
 
 
 
