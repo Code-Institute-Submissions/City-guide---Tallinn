@@ -1,6 +1,6 @@
 # Codeinstitute Milestone 2 project -  by Madis Tepp
 
-# - Interactive City Guide Project created for Tallinn, Estonia
+## Interactive City Guide Project created for Tallinn, Estonia
 
 ## Purpose: 
 
@@ -59,7 +59,36 @@ User stories that i tried to address:
 
 Finished site does not exactly match the original wireframes because during site creation new ideas were born that worked better for the final version.
 
-<img src="..\images\wireframes.png">
+<img src="images\wireframes.png">
+
+## Features/Functionality/Techologies: 
+
+ I used Bootstrap to create a mobile first design for the site. Jquery was used to write easier Javascript functions. Google fonts was used to the font styles. Social media logos were taken from font awesome. 
+
+ Google maps api was used to provide users with a fully functional map and emailJS used to create a working e-mail function for newsletter section.
+
+
+ ## Testing :
+
+ A lot of time and effort went into testing the functionalities of the site.
+ Code has been checked on https://validator.w3.org/ and https://jigsaw.w3.org/css-validator/ to make sure no errors in the code that would prevent functions. Tested all pages on https://www.toptal.com/designers/colorfilter/ to ensure that pages work for colorblind people. Deployed site was tested by using using the page on Firefox, Google Chrome, Explored and Microsoft Edge. In addition to that page was tested by using it on different devices such as Samsung Galaxy S10, Iphone XR , Samsung Galaxy A5. 
+ I used Google development tools extensively through out the entire coding process to ensure that the site would look good and work as planned on different screen sizes. When errors found in the dev tools fixes were done according to solution that was received from the developer tools. 
+
+ Map : maps was tested continuously through the process by submitting different values to the search bar and ensuring that location bias worked as planned. 
+
+ Newsletter : newsletter function was tested many times by trying to submit values which were not e-mail addresses and did not contain @ sign. In case of wrong input user gets a alert stating the same. 
+
+ Travel search : also tested many times and ensured that users are not allowed to leave origin / destination field when they would submit the request. Also as per industry standard passenger count was limited to 9 people and user is not able to add any more passenger to their request. 
+
+ All links have been tested and work as they are designed without any issues. 
+
+ ### Testing planning and performed testing: 
+
+
+
+
+
+
 
 
 Images from : unsplash.com
