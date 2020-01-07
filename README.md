@@ -83,7 +83,7 @@ Finished site does not exactly match the original wireframes because during site
  ### Some of the manual tests performed:
 
 | Action                                         | Expected result                | Corrective action | Passed |
-| ---------------------------------------------- |:-------------:|---------------:|                   |        |
+| ---------------------------------------------- |:------------------------------:|------------------:|-------:|
 | Clicked on header links on a desktop desktop   | scrolls to recommended section | None              | Yes    |
 | Clicked on header links on a mobile            | scrolls to recommended section | None              | Yes    |
 | Clicked on all 4 tabs in recommendation section| specified section appears others close| None       | Yes    |
@@ -94,7 +94,7 @@ Finished site does not exactly match the original wireframes because during site
 | Use travel search  section                     | To / from mandatory to be filled | None            | Yes    |
 | Clicked on outbound / inbound                  | calendar appears to choose date | None             | Yes    |
 | Newsletter sign up not filled + enter press    | alert to fill in email provided | None             | Yes    |
-| Newsletter sign up filled with valid email     | alert that sign up successful   | None             | Yes    |
+| Newsletter sign up filled with valid email     | alert that sign up successful   | None             | Yes   
 
 
 
