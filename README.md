@@ -76,13 +76,25 @@ Finished site does not exactly match the original wireframes because during site
 
  Map : maps was tested continuously through the process by submitting different values to the search bar and ensuring that location bias worked as planned. 
 
- Newsletter : newsletter function was tested many times by trying to submit values which were not e-mail addresses and did not contain @ sign. In case of wrong input user gets a alert stating the same. 
-
  Travel search : also tested many times and ensured that users are not allowed to leave origin / destination field when they would submit the request. Also as per industry standard passenger count was limited to 9 people and user is not able to add any more passenger to their request. 
 
  All links have been tested and work as they are designed without any issues. 
 
- ### Testing planning and performed testing: 
+ ### Some of the manual tests performed:
+
+| Action                                         | Expected result                | Corrective action | Passed |
+| ---------------------------------------------- |:-------------:|---------------:|                   |        |
+| Clicked on header links on a desktop desktop   | scrolls to recommended section | None              | Yes    |
+| Clicked on header links on a mobile            | scrolls to recommended section | None              | Yes    |
+| Clicked on all 4 tabs in recommendation section| specified section appears others close| None       | Yes    |
+| Clicked on different upcoming events           | open page in a new tab         | None              | Yes    |
+| Clicked on all other recommendations provided  | scrolls map to view and displays marker | None     | Yes    |
+| Used search function in maps                   | Autocomplete provides locations in Tallinn | None  | Yes    |
+| Chose option from autocomplete list            | Marker displayed and zoomed in |  None             | Yes    |
+| Use travel search  section                     | To / from mandatory to be filled | None            | Yes    |
+| Clicked on outbound / inbound                  | calendar appears to choose date | None             | Yes    |
+| Newsletter sign up not filled + enter press    | alert to fill in email provided | None             | Yes    |
+| Newsletter sign up filled with valid email     | alert that sign up successful   | None             | Yes    |
 
 
 
