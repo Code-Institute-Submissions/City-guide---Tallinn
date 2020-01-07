@@ -89,6 +89,33 @@ Finished site does not exactly match the original wireframes because during site
 
 
 
+## Credits
+
+##### Content:
+Content created myself.
+
+##### Media:
+
+Background picture credit to:
+Unsplash.com
+
+##### Acknowledgements:
+
+
+Inspiration for this project received by reviewing numerous different award winning websites provided on https://www.awwwards.com/
+
+Bootstrap has been used extensively to create the elements that i had in mind during design phase. Bootstrap elements have though been extensively modified and styled.
+
+Jquery has been used throughout the site functionalities. 
+
+developer.google.com used for bulk of the code and information for maps section of the site.
+
+https://www.w3schools.com/ has been a great help in solving some of the problems i ran into during coding.
+
+https://stackoverflow.com/ used to help with problem solving.
+
+Code Institute Slack channel and channel leads were of great support during coding phase.
+
 
 
 Images from : unsplash.com
