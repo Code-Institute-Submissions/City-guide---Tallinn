@@ -59,11 +59,13 @@ User stories that i tried to address:
 
 Finished site does not exactly match the original wireframes because during site creation new ideas were born that worked better for the final version.
 
-<img src="images\wireframes.png">
+!(../images/wireframes.png)
 
 ## Features/Functionality/Techologies: 
 
- I used Bootstrap to create a mobile first design for the site. Jquery was used to write easier Javascript functions. Google fonts was used to the font styles. Social media logos were taken from font awesome. 
+Wireframes were created with Balsamiq.
+
+ I used Bootstrap to create a mobile first design for the site. Jquery was used to write some of the Javascript functions. Google fonts was used to the font styles. Social media logos were taken from FontAwesome. 
 
  Google maps api was used to provide users with a fully functional map and emailJS used to create a working e-mail function for newsletter section.
 
@@ -71,14 +73,14 @@ Finished site does not exactly match the original wireframes because during site
  ## Testing :
 
  A lot of time and effort went into testing the functionalities of the site.
- Code has been checked on https://validator.w3.org/ and https://jigsaw.w3.org/css-validator/ to make sure no errors in the code that would prevent functions. Tested all pages on https://www.toptal.com/designers/colorfilter/ to ensure that pages work for colorblind people. Deployed site was tested by using using the page on Firefox, Google Chrome, Explored and Microsoft Edge. In addition to that page was tested by using it on different devices such as Samsung Galaxy S10, Iphone XR , Samsung Galaxy A5. 
- I used Google development tools extensively through out the entire coding process to ensure that the site would look good and work as planned on different screen sizes. When errors found in the dev tools fixes were done according to solution that was received from the developer tools. 
+ Code has been checked on https://validator.w3.org/ and https://jigsaw.w3.org/css-validator/ to make sure no errors in HTML and CSS part of the code that would prevent functions. Tested page on https://www.toptal.com/designers/colorfilter/ to ensure that pages work for colorblind people. Deployed site was tested by using using the page on Firefox, Google Chrome, Explorer and Microsoft Edge. In addition to that page was tested by using it on different devices such as Samsung Galaxy S10, Iphone XR , Samsung Galaxy A5. 
+ I used Google development tools extensively through out the entire coding process to ensure that the site would look good and work as planned on different screen sizes. When errors found in the dev tools fixes were done accordingly. 
 
  Map : maps was tested continuously through the process by submitting different values to the search bar and ensuring that location bias worked as planned. 
 
- Travel search : also tested many times and ensured that users are not allowed to leave origin / destination field when they would submit the request. Also as per industry standard passenger count was limited to 9 people and user is not able to add any more passenger to their request. 
+ Travel search : also tested many times and ensured that users are not allowed to leave origin / destination field when they would submit the request. Also as per travel industry standard passenger count was limited to 9 people and user is not able to add any more passenger to their request. 
 
- All links have been tested and work as they are designed without any issues. 
+
 
  ### Some of the manual tests performed:
 
@@ -97,18 +99,38 @@ Finished site does not exactly match the original wireframes because during site
 | Newsletter sign up filled with valid email     | alert that sign up successful   | None             | Yes   
 
 
+## Deployment
 
+This site has been deployed using Github, i have deployed the site from master branch.
+
+To review site use link : https://teppm.github.io/City-guide---Tallinn/
+
+Steps to deploy site:
+
+As the repository for sites code has been on Github from the start, deploying this site was fairly easy.
+
+Accessed my sites repository on GitHub
+
+From settings chose to deploy master branch
+
+After these two steps the site was deployed and was live for usage and submition for reviewing.
+
+If you would like to deploy the site yourself, you can use the source code from https://github.com/teppm/personal-portfolio, you can use git clone https://github.com/teppm/personal-portfolio.git.
+
+Currently deployed site will be update if any changes will be made.
 
 
 
 ## Credits
 
 ##### Content:
-Content created myself.
+
+Original content.
 
 ##### Media:
 
-Background picture credit to:
+Background pictures credit to:
+
 Unsplash.com
 
 ##### Acknowledgements:
@@ -129,5 +151,7 @@ https://stackoverflow.com/ used to help with problem solving.
 Code Institute Slack channel and channel leads  as well as Tutor support were of great support during coding phase.
 
 
+## Support: 
 
-Images from : unsplash.com
+Site owner can be contacted for support via github.
+
