@@ -59,7 +59,7 @@ User stories that i tried to address:
 
 Finished site does not exactly match the original wireframes because during site creation new ideas were born that worked better for the final version.
 
-!(../images/wireframes.png)
+<img src="https://github.com/teppm/City-guide---Tallinn/blob/master/assets/images/wireframes.png">
 
 ## Features/Functionality/Techologies: 
 
@@ -78,7 +78,7 @@ Wireframes were created with Balsamiq.
 
  Code has been checked on https://validator.w3.org/  - 7 warnings found which i chose to ignore as now effect on functionality.
  Code has been checked on  https://jigsaw.w3.org/css-validator/  - 0 errors received.
- 
+
  . Tested page on https://www.toptal.com/designers/colorfilter/ to ensure that pages work for colorblind people. Deployed site was tested by using using the page on Firefox, Google Chrome, Explorer and Microsoft Edge. In addition to that page was tested by using it on different devices such as Samsung Galaxy S10, Iphone XR , Samsung Galaxy A5. 
  I used Google development tools extensively through out the entire coding process to ensure that the site would look good and work as planned on different screen sizes. When errors found in the dev tools fixes were done accordingly. 
 
