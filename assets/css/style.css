@@ -208,6 +208,7 @@
     .pax-count {
         height: 30px;
         width: 30px;
+        background-color: #dddbe2;
         border: 1px solid black;
     }
     
