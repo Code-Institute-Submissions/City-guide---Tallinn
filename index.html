@@ -9,7 +9,7 @@
     <meta name="author" content="Madis Tepp">
     <meta name="description" content="Tallinn city guide">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Code+Pro:200, 300, 400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>MT Design - Guide to Tallinn</title>
 </head>
@@ -73,9 +73,9 @@
             <p class="recommendations-intro">Having trouble deciding on what, where, why, how? As a Tallinn local who has now been living abroad for years, I’ve been struggling myself with this decision when visiting back home. So to make things easier for you I have gathered some of
                 my local favorites for you to choose from. Want to have a fine dining dinner or something more laid back, interested in cocktails or maybe you’re a beer connoisseur? Whatever your interest you’ll find something that would suit you from
                 below.
-                <p class="moreInfo">Just click on below tabs to find out more:</p>
-
             </p>
+            <p class="moreInfo">Just click on below tabs to find out more:</p>
+
 
         </div>
     </section>
@@ -290,8 +290,8 @@
                     <input type="text" class="form-control" placeholder="To" required>
                 </div>
                 <p>Passengers: </p>
-                <a type="button" class="pax-count" onclick='incrementCounter()'>+</a>
-                <a type="button" class="pax-count" onclick='decrementCounter()'>-</a>
+                <a class="pax-count" onclick='incrementCounter()'>+</a>
+                <a class="pax-count" onclick='decrementCounter()'>-</a>
                 <span class="pax-count" id="count">0</span>
             </div>
             <div class="row">
@@ -318,14 +318,14 @@
     </section>
 
     <!--footer/social links-->
-    <footer class="row newsletter-signup social ">
+    <footer class="row newsletter-signup social">
 
-        <div class="col-md-6 ">
-            <a href="https://www.facebook.com/ " target="_blank "><i class="fab fa-facebook "></i></a>
-            <a href="https://www.instagram.com/ " target="_blank "><i class="fab fa-instagram "></i></a>
-            <a href="https://www.youtube.com/ " target="_blank "><i class="fab fa-youtube "></i></a>
-            <a href="https://www.linkedin.com/ " target="_blank "><i class="fab fa-linkedin "></i></a>
-            <a href="https://www.twitter.com/ " target="_blank "><i class="fab fa-twitter-square "></i></a>
+        <div class="col-md-6">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
         </div>
 
 
@@ -333,8 +333,8 @@
 
         <div class="col-md-6">
             <form class="form-group newsletter-form" onsubmit="return false">
-                <label for="newsletter-signup ">Sign up for our newsletter</label>
-                <input autocomplete="off" type="email " class="form-control" id="newsletter-signup" aria-describedby="signUp" placeholder="Enter email " required>
+                <label for="newsletter-signup">Sign up for our newsletter</label>
+                <input autocomplete="off" type="email" class="form-control" id="newsletter-signup" aria-describedby="signUp" placeholder="Enter email" required>
                 <input type="submit" class="btn btn-primary btn-sm" onclick="registerToNewsLetter()">
             </form>
         </div>
