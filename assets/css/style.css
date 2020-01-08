@@ -48,14 +48,6 @@
     .navbar {
         background-color: rgb(15, 8, 83);
     }
-    
-    .abt-tallinn {
-        padding: 30px;
-        background-color: #dddbe2;
-        width: 90%;
-        color: #000000;
-        font-weight: bold;
-    }
     /*---between about and recommendations section image---*/
     
     .tallinn-old-town {
@@ -67,6 +59,14 @@
         height: 400px;
     }
     /*----about the city section styling----*/
+    
+    .abt-tallinn {
+        padding: 30px;
+        background-color: #dddbe2;
+        width: 90%;
+        color: #000000;
+        font-weight: bold;
+    }
     
     .about-header {
         text-align: center;
@@ -113,7 +113,7 @@
         padding-top: 30px;
         padding-bottom: 30px;
         background-color: #000000;
-        color: #ffffff;
+        color: #dddbe2;
     }
     
     .top-things-detailed {
