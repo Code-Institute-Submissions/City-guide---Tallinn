@@ -72,7 +72,10 @@ Wireframes were created with Balsamiq.
 
  ## Testing :
 
- A lot of time and effort went into testing the functionalities of the site.
+ For this site no automated tests were written as i deemed it un-necessary, given that sufficient tests could be done manually without having a affect on delivery timeline.
+
+ All function of the site were continuously and repeatedly tested over the course of coding the page, any errors or problems that occured were solved during the same process. For final tests once site was ready for implementation below approach was taken. 
+ 
  Code has been checked on https://validator.w3.org/ and https://jigsaw.w3.org/css-validator/ to make sure no errors in HTML and CSS part of the code that would prevent functions. Tested page on https://www.toptal.com/designers/colorfilter/ to ensure that pages work for colorblind people. Deployed site was tested by using using the page on Firefox, Google Chrome, Explorer and Microsoft Edge. In addition to that page was tested by using it on different devices such as Samsung Galaxy S10, Iphone XR , Samsung Galaxy A5. 
  I used Google development tools extensively through out the entire coding process to ensure that the site would look good and work as planned on different screen sizes. When errors found in the dev tools fixes were done accordingly. 
 
