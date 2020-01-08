@@ -1,4 +1,7 @@
 //click on top nav button to move further down the page to specific section//
+
+
+
 function moveTo() {
     let findOnPage = document.getElementById("recommendations");
     findOnPage.scrollIntoView();
@@ -11,7 +14,11 @@ function moveToTravel() {
 };
 
 
+
+
 ///travel section customer counter function, can count up to max 9 passengers which is travel industry standard per reservation///
+
+
 
 let counter = document.getElementById('count'),
     count = 0;
@@ -31,7 +38,13 @@ function decrementCounter() {
 };
 
 
+
+
+
 ///travel section calendar function///
+
+
+
 
 $(document).ready(function() {
     $('#choose_outbound').datepicker();
@@ -39,7 +52,13 @@ $(document).ready(function() {
 });
 
 
+
+
+
 ///newsletter signup functions, generates email to site owner, in case of succesful and correct data or if incorrect alert is displayed///
+
+
+
 
 function registerToNewsLetter() {
 
@@ -56,7 +75,12 @@ function registerToNewsLetter() {
 };
 
 
+
+
+
 //click function to hides and show recommendatios section when clicked on specific option// 
+
+
 
 
 $(document).ready(function() {
