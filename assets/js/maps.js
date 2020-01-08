@@ -31,7 +31,13 @@ function initMap() {
         bounds: defaultBounds
     });
 
-    // Bias the SearchBox results towards current map's viewport.
+
+
+
+    // Location bias added to the SearchBox results towards current map's viewport.
+
+
+
     map.addListener('bounds_changed', function() {
         searchBox.setBounds(map.getBounds());
     });
@@ -53,7 +59,13 @@ function initMap() {
         markers = [];
 
 
+
+
+
         // For each place, get the icon, name and location.
+
+
+
         var bounds = new google.maps.LatLngBounds();
         places.forEach(function(place) {
             if (!place.geometry) {
@@ -69,6 +81,9 @@ function initMap() {
             };
 
             // Create a marker for each place.
+
+
+
             markers.push(new google.maps.Marker({
                 map: map,
                 icon: icon,
@@ -76,7 +91,6 @@ function initMap() {
                 position: place.geometry.location
             }));
             if (place.geometry.viewport) {
-                // Only geocodes have viewport.
                 bounds.union(place.geometry.viewport);
             } else {
                 bounds.extend(place.geometry.location);
