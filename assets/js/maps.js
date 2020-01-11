@@ -107,7 +107,7 @@ function initMap() {
 
 
 ////below function will , onclick , display the marker of the recommended location on google maps
-/// and move viewpoint on the map 
+/// and move viewpoint on the map , when clicking on marker infowindow will be displayed
 
 
 let locations = {
