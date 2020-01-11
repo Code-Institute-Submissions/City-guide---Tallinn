@@ -3,6 +3,7 @@
 
 let pos;
 let map;
+let markers = [];
 
 
 
@@ -42,7 +43,7 @@ function initMap() {
         searchBox.setBounds(map.getBounds());
     });
 
-    var markers = [];
+
 
 
     searchBox.addListener('places_changed', function() {
@@ -53,11 +54,7 @@ function initMap() {
             return;
         }
 
-        markers.forEach(function(marker) {
-            marker.setMap(null);
-        });
-        markers = [];
-
+        removeMarkers()
 
 
 
@@ -113,237 +110,74 @@ function initMap() {
 /// and move viewpoint on the map 
 
 
+let locations = {
+    seaPlaneHarbour: [59.4516884, 24.7383098],
+    proto: [59.4383745, 24.7283514],
+    fotografiska: [59.4383745, 24.7283514],
+    telliskivi: [59.439518, 24.7284773],
+    kumu: [59.4361949, 24.7961812],
+    ratasKaevu: [59.4369154, 24.7424514],
+    parrot: [59.4354577, 24.7452601],
+    mathiasD: [59.4520651, 24.7282848],
+    koht: [59.4382365, 24.7438458],
+    mannaLaRoosa: [59.437424, 24.7526194],
+    frankU: [59.4359316, 24.7477253],
+    kiviP: [59.438617, 24.7280598],
+    shvips: [59.4389384, 24.7260338],
+    saund: [59.4362423, 24.7480849],
+    teater: [59.4327102, 24.7447364],
 
-
-//1. Seaplane harbour
-
-function seaplaneHarbour() {
-
-    let seaPlane = new google.maps.LatLng(59.4516884, 24.7383098);
-    let seaPlaneMarker = new google.maps.Marker({
-        position: seaPlane,
-    });
-
-    seaPlaneMarker.setMap(map);
-    let moveToMap = document.getElementById("map");
-    moveToMap.scrollIntoView();
 }
 
+function markerDisplayLocation(location) {
+    let lat = locations[location][0]
+    let lng = locations[location][1]
 
 
+    let display = new google.maps.LatLng(lat, lng);
+    let markerDisplay = createMarker(display);
 
-//2. Proto Invention factory
 
-function proto() {
-
-    let proto = new google.maps.LatLng(59.4383745, 24.7283514);
-    let protoMarker = new google.maps.Marker({
-        position: proto,
-    });
-
-    protoMarker.setMap(map);
-    let moveToMap = document.getElementById("map");
-    moveToMap.scrollIntoView();
-}
-
-
-
-//3. fotografiska Tallinn
-
-function fotografiska() {
-
-    let fotografiska = new google.maps.LatLng(59.4383745, 24.7283514);
-    let fotografiskaMarker = new google.maps.Marker({
-        position: fotografiska,
-    });
-
-    fotografiskaMarker.setMap(map);
-    let moveToMap = document.getElementById("map");
-    moveToMap.scrollIntoView();
-}
-
-
-
-
-//4. telliskivi creative city
-
-function telliskivi() {
-
-    let telliskivi = new google.maps.LatLng(59.439518, 24.7284773);
-    let telliskiviMarker = new google.maps.Marker({
-        position: telliskivi,
-    });
-
-    telliskiviMarker.setMap(map);
-    let moveToMap = document.getElementById("map");
-    moveToMap.scrollIntoView();
-}
-
-//5. KUMU art museum 
-
-function kumu() {
-
-    let kumu = new google.maps.LatLng(59.4361949, 24.7961812);
-    let kumuMarker = new google.maps.Marker({
-        position: kumu,
-    });
-
-    kumuMarker.setMap(map);
-    let moveToMap = document.getElementById("map");
-    moveToMap.scrollIntoView();
-}
-
-//6. restaurant rataskaevu 16 
-
-function ratasKaevu() {
-
-    let ratasKaevu = new google.maps.LatLng(59.4369154, 24.7424514);
-    let ratasKaevuMarker = new google.maps.Marker({
-        position: ratasKaevu,
-    });
-
-    ratasKaevuMarker.setMap(map);
-    let moveToMap = document.getElementById("map");
-    moveToMap.scrollIntoView();
-}
-
-
-//7. parrot minibar 
-
-function parrot() {
-
-    let parrot = new google.maps.LatLng(59.4354577, 24.7452601);
-    let parrotMarker = new google.maps.Marker({
-        position: parrot,
-    });
-
-    parrotMarker.setMap(map);
-    let moveToMap = document.getElementById("map");
-    moveToMap.scrollIntoView();
-}
-
-
-//8. 180 degrees by Mathias Diether 
-
-function MathiasD() {
-
-    let mathiasD = new google.maps.LatLng(59.4520651, 24.7282848);
-    let mathiasDMarker = new google.maps.Marker({
-        position: mathiasD,
-    });
-
-    mathiasDMarker.setMap(map);
-    let moveToMap = document.getElementById("map");
-    moveToMap.scrollIntoView();
-}
-
-
-//9. bar : koht 
-
-
-function koht() {
-
-    let koht = new google.maps.LatLng(59.4382365, 24.7438458);
-    let kohtMarker = new google.maps.Marker({
-        position: koht,
-    });
-
-    kohtMarker.setMap(map);
-    let moveToMap = document.getElementById("map");
-    moveToMap.scrollIntoView();
-}
-
-
-
-
-//10. Manna La Roose 
-
-function mannaLaRoosa() {
-
-    let mannaLaRoosa = new google.maps.LatLng(59.437424, 24.7526194);
-    let mannaLaRoosaMarker = new google.maps.Marker({
-        position: mannaLaRoosa,
-    });
-
-    mannaLaRoosaMarker.setMap(map);
-    let moveToMap = document.getElementById("map");
-    moveToMap.scrollIntoView();
-}
-
-
-//11. Frank Underground
-
-function frankU() {
-
-    let frankU = new google.maps.LatLng(59.4359316, 24.7477253);
-    let frankUMarker = new google.maps.Marker({
-        position: frankU,
-    });
-
-    frankUMarker.setMap(map);
-    let moveToMap = document.getElementById("map");
-    moveToMap.scrollIntoView();
-}
-
-
-//12. restaurant / bar - Kivi Paber Kääri (rock paper scissors)
-
-function kiviP() {
-
-    let kiviP = new google.maps.LatLng(59.438617, 24.7280598);
-    let kiviPMarker = new google.maps.Marker({
-        position: kiviP,
-    });
-
-    kiviPMarker.setMap(map);
-    let moveToMap = document.getElementById("map");
-    moveToMap.scrollIntoView();
-}
-
-
-//13.wine bar Shvips 
-
-
-function shvips() {
-
-    let shvips = new google.maps.LatLng(59.4389384, 24.7260338);
-    let shvipsMarker = new google.maps.Marker({
-        position: shvips,
-    });
-
-    shvipsMarker.setMap(map);
+    removeMarkers();
+    markers.push(markerDisplay)
+    markerDisplay.setMap(map);
     let moveToMap = document.getElementById("map");
     moveToMap.scrollIntoView();
 
 }
 
 
-//14. SAUNd music bar 
+function removeMarkers() {
+    markers.forEach(function(marker) {
+        marker.setMap(null);
+    });
+    markers = [];
+}
 
-function saund() {
+function createMarker(display) {
 
-    let saund = new google.maps.LatLng(59.4362423, 24.7480849);
-    let saundMarker = new google.maps.Marker({
-        position: saund,
+    let contentString = 'www'
+
+
+    let infowindow = new google.maps.InfoWindow({
+        content: contentString
     });
 
-    saundMarker.setMap(map);
-    let moveToMap = document.getElementById("map");
-    moveToMap.scrollIntoView();
+    let marker = new google.maps.Marker({
+        position: display,
+        map: map,
+    });
+
+    marker.addListener('click', function() {
+        infowindow.open(map, marker);
+    });
+    return marker;
 
 }
 
+$('.show-marker').on('click', function() {
+    console.log($(this).attr('id'))
+    let location = $(this).attr('id')
+    markerDisplayLocation(location)
 
-//15. Club Theater (teater)
-
-function teater() {
-
-    let teater = new google.maps.LatLng(59.4327102, 24.7447364);
-    let teaterMarker = new google.maps.Marker({
-        position: teater,
-    });
-
-    teaterMarker.setMap(map);
-    let moveToMap = document.getElementById("map");
-    moveToMap.scrollIntoView();
-}
+})
