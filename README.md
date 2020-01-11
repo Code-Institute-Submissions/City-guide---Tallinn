@@ -107,23 +107,20 @@ Wireframes were created with Balsamiq.
 
 ## Deployment
 
-This site has been deployed using Github, i have deployed the site from master branch.
-
-To review site use link : https://teppm.github.io/City-guide---Tallinn/
-
 Steps to deploy site:
 
-As the repository for sites code has been on Github from the start, deploying this site was fairly easy.
+1. went to Github.vom 
+2. selected repositories
+3. selected repository for current site
+4. clicked on settings 
+5. scrolled down until section github pages
+6. selected master branch to deploy site from 
+7. deployed site 
+8. site deployed : https://teppm.github.io/City-guide---Tallinn/
 
-Accessed my sites repository on GitHub
-
-From settings chose to deploy master branch
-
-After these two steps the site was deployed and was live for usage and submition for reviewing.
 
 If you would like to deploy the site yourself, you can use the source code from https://github.com/teppm/personal-portfolio, you can use git clone https://github.com/teppm/personal-portfolio.git.
 
-Currently deployed site will be update if any changes will be made.
 
 
 
@@ -156,6 +153,7 @@ https://stackoverflow.com/ used to help with problem solving.
 
 Code Institute Slack channel and channel leads  as well as Tutor support were of great support during coding phase.
 
+great help in reviewing, guidance and help from code institute mentor Anthony Ngene
 
 ## Support: 
 
