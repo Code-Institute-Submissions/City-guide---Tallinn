@@ -167,7 +167,6 @@ function createMarker(display) {
         position: display,
         map: map,
     });
-
     marker.addListener('click', function() {
         infowindow.open(map, marker);
     });
@@ -176,7 +175,6 @@ function createMarker(display) {
 }
 
 $('.show-marker').on('click', function() {
-    console.log($(this).attr('id'))
     let location = $(this).attr('id')
     markerDisplayLocation(location)
 
