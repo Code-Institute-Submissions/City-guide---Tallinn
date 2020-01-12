@@ -8,7 +8,7 @@ Purpose for this project was to create a city guide for Tallinn, Estonia and mor
 
 #### User guide: 
 
-##### Recommendations:
+##### Recommendations section:
 
 From the top of the page users can choose to click on any of the following links : 
 - Events : to provide upcoming events that were deemed interesting and could provide a reason to visit
@@ -21,7 +21,7 @@ After user clicks on one of the options site is scrolled to have recommendations
 To provide a less noisy view for site user they could then click again on the specific recommendations group they are interested in and that opens up the recommendations itself.
 
 For Events site provides a link to home page of the events for purchase of tickets and more information. 
-For other recommendations after clicking on the option most interesting user will be displayed the location for their choice on map, also maps will be scrolled in to view.
+For other recommendations after clicking on the option most interesting user will be displayed the location for their choice on map, also maps will be scrolled in to view. When user clicks on provided marker, infowindow opens with link to website of the place in question.
 
 Maps has also been fitted with a search and auto-complete function that is location bias to Tallinn and provides the option to search for more locations of interest if the ones provided by site owner are not of interest. 
 
@@ -143,7 +143,11 @@ Inspiration for this project received by reviewing numerous different award winn
 
 Bootstrap has been used extensively to create the elements that i had in mind during design phase. Bootstrap elements have though been extensively modified and styled.
 
-Jquery has been used throughout the site functionalities. 
+Jquery has been used throughout the site functionalities.
+
+Fontawesome - used for icons 
+
+google fonts - font styling selected from this site
 
 developer.google.com used for bulk of the code and information for maps section of the site.
 
