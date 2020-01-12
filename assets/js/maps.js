@@ -8,6 +8,7 @@ let markers = [];
 
 
 
+
 function initMap() {
 
     pos = { lat: 59.4370, lng: 24.7536 };
@@ -111,28 +112,58 @@ function initMap() {
 
 
 let locations = {
-    seaPlaneHarbour: [59.4516884, 24.7383098],
-    proto: [59.4383745, 24.7283514],
-    fotografiska: [59.4383745, 24.7283514],
-    telliskivi: [59.439518, 24.7284773],
-    kumu: [59.4361949, 24.7961812],
-    ratasKaevu: [59.4369154, 24.7424514],
-    parrot: [59.4354577, 24.7452601],
-    mathiasD: [59.4520651, 24.7282848],
-    koht: [59.4382365, 24.7438458],
-    mannaLaRoosa: [59.437424, 24.7526194],
-    frankU: [59.4359316, 24.7477253],
-    kiviP: [59.438617, 24.7280598],
-    shvips: [59.4389384, 24.7260338],
-    saund: [59.4362423, 24.7480849],
-    teater: [59.4327102, 24.7447364],
+    seaPlaneHarbour: [59.4516884, 24.7383098, '<a href="http://meremuuseum.ee/lennusadam/en/the-museum/the-seaplane-harbours-story/" target=_"blank">' +
+        'Click here to read more</a> '
+    ],
+    proto: [59.4383745, 24.7283514, '<a href="https://prototehas.ee/en/home/" target=_"blank">' +
+        'Click here to read more</a> '
+    ],
+    fotografiska: [59.4383745, 24.7283514, '<a href="https://www.fotografiska.com/tallinn/en/" target=_"blank">' +
+        'Click here to read more</a> '
+    ],
+    telliskivi: [59.439518, 24.7284773, '<a href="https://telliskivi.cc/en/" target=_"blank">' +
+        'Click here to read more</a> '
+    ],
+    kumu: [59.4361949, 24.7961812, '<a href="https://kumu.ekm.ee/en/" target=_"blank">' +
+        'Click here to read more</a> '
+    ],
+    ratasKaevu: [59.4369154, 24.7424514, '<a href="http://rataskaevu16.ee/en/" target=_"blank">' +
+        'Click here to read more</a> '
+    ],
+    parrot: [59.4354577, 24.7452601, '<a href="https://www.facebook.com/parrotminibar/" target=_"blank">' +
+        'Click here to read more</a> '
+    ],
+    mathiasD: [59.4520651, 24.7282848, '<a href="https://180degrees.ee/restaurant" target=_"blank">' +
+        'Click here to read more</a> '
+    ],
+    koht: [59.4382365, 24.7438458, '<a href="https://www.facebook.com/tubakas" target=_"blank">' +
+        'Click here to read more</a> '
+    ],
+    mannaLaRoosa: [59.437424, 24.7526194, '<a href="http://www.mannalaroosa.com/front.html" target=_"blank">' +
+        'Click here to read more</a> '
+    ],
+    frankU: [59.4359316, 24.7477253, '<a href="http://www.frankbistro.ee/" target=_"blank">' +
+        'Click here to read more</a> '
+    ],
+    kiviP: [59.438617, 24.7280598, '<a href="http://kivipaber.ee/en/" target=_"blank">' +
+        'Click here to read more</a> '
+    ],
+    shvips: [59.4389384, 24.7260338, '<a href="http://www.shvips.ee/" target=_"blank">' +
+        'Click here to read more</a> '
+    ],
+    saund: [59.4362423, 24.7480849, '<a href="https://www.facebook.com/saundmusicbar/">' +
+        'Click here to read more</a> '
+    ],
+    teater: [59.4327102, 24.7447364, '<a href="http://www.klubiteater.ee/en/about-teater" target=_"blank">' +
+        'Click here to read more</a> '
+    ],
 
 }
 
 function markerDisplayLocation(location) {
     let lat = locations[location][0]
     let lng = locations[location][1]
-
+    content = locations[location][2]
 
     let display = new google.maps.LatLng(lat, lng);
     let markerDisplay = createMarker(display);
@@ -143,8 +174,8 @@ function markerDisplayLocation(location) {
     markerDisplay.setMap(map);
     let moveToMap = document.getElementById("map");
     moveToMap.scrollIntoView();
-
 }
+
 
 
 function removeMarkers() {
@@ -154,14 +185,15 @@ function removeMarkers() {
     markers = [];
 }
 
+
 function createMarker(display) {
 
-    let contentString = 'www'
 
 
     let infowindow = new google.maps.InfoWindow({
-        content: contentString
-    });
+        content: content
+    })
+
 
     let marker = new google.maps.Marker({
         position: display,
@@ -169,6 +201,7 @@ function createMarker(display) {
     });
     marker.addListener('click', function() {
         infowindow.open(map, marker);
+
     });
     return marker;
 
