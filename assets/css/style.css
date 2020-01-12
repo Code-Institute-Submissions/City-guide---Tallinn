@@ -237,12 +237,20 @@
     .newsletter-form {
         width: 50%;
     }
+    
+    .fab {
+        color: #dddbe2;
+    }
+    
+    .fab:hover {
+        color: firebrick;
+    }
     /*----------------a tag hover styling----------------*/
     
     a:hover {
         font-weight: bolder;
         color: firebrick;
-        background: gold;
+        background-color: gold;
         border: silver;
         transition-duration: 0.2s;
         animation-duration: 0.2s;
