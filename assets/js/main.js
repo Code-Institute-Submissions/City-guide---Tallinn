@@ -55,17 +55,21 @@ $(document).ready(function() {
 
 
 
-///newsletter signup functions, generates email to site owner, in case of succesful and correct data or if incorrect alert is displayed///
+///newsletter signup functions, generates email to site owner, if no email or incorrect format provided alert is displayed///
+/// if successful sign up also alert is displayed that
 
 
 
 
 function registerToNewsLetter() {
 
+    var emailValidator = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
     var inputEmail = document.getElementById('newsletter-signup').value;
 
     if (inputEmail === "") {
         alert('You need to fill in e-mail address')
+    } else if (inputEmail !== emailValidator) {
+        alert('Invalid e-mail address provided')
     } else {
         emailjs.send("gmail", "newsletter_signup", {
             "e_mail": inputEmail
